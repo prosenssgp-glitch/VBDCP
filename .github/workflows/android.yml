@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q VBDCP-Android-Project-GitHub-Actions.zip -d android-build
+          VBDCP-Android-Project-GitHub-Actions-Icon-Fixed.zip
 
       - name: Set up Java
         uses: actions/setup-java@v4
