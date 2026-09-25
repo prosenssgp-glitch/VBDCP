@@ -36,7 +36,7 @@ button{background:#1565c0;color:white;border:0;font-weight:700;margin-top:12px}.
 </style>
 <style>
 .menu3 button{transition:background-color .15s ease,color .15s ease,transform .08s ease;cursor:pointer}.menu3 button:active{transform:scale(.98)}.menu3 button.active-menu{background:#0d47a1!important;color:#fff!important;box-shadow:0 0 0 2px rgba(13,71,161,.18)}
-</style><style>.work-start-card{margin:12px 0;padding:12px;border:1px solid #d9e1ea;border-radius:12px;background:#f8fbff}.work-start-title{font-weight:800}.work-start-note{font-size:12px;color:#5f6b76;margin:5px 0 9px;line-height:1.45}.work-start-list{display:grid;gap:8px}.work-start-row{display:flex;align-items:center;gap:9px;padding:8px;border:1px solid #e0e6ed;border-radius:10px;background:#fff}.work-start-name{font-weight:700;flex:1}.work-start-meta{font-size:11px;text-align:right;color:#5f6b76}.work-start-circle{width:86px!important;height:64px!important;min-width:86px!important;padding:0!important;margin:0!important;border-radius:50%!important;border:3px solid #777!important;background:linear-gradient(145deg,#4b4b4b,#0b0b0b)!important;color:#fff!important;font-size:27px!important;font-weight:900!important;display:flex;align-items:center;justify-content:center;flex:0 0 86px!important;box-shadow:inset 3px 3px 7px #888,inset -4px -4px 8px #000,0 7px 15px #000!important}.work-start-circle:disabled{opacity:.75;cursor:wait}.work-start-circle.started{background:#16a34a!important;border-color:#15803d!important;color:#fff!important}.work-start-status{margin-top:8px;padding:8px;border-radius:8px;background:#eef5ff;font-size:13px}.work-start-status.active{background:#eaf8ee;color:#167a36;border:1px solid #9bd5aa;font-weight:700}.live-admin-card{margin:12px 0;padding:12px;border:1px solid #9bd5aa;border-radius:12px;background:#f3fff6}.live-worker{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #d8efdd}.live-worker:last-child{border-bottom:0}.live-green{color:#167a36;font-weight:800}</style><style>
+</style><style>.work-start-card{margin:12px 0;padding:12px;border:1px solid #d9e1ea;border-radius:12px;background:#f8fbff}.work-start-title{font-weight:800}.work-start-note{font-size:12px;color:#5f6b76;margin:5px 0 9px;line-height:1.45}.work-start-list{display:grid;gap:8px}.work-start-row{display:flex;align-items:center;gap:9px;padding:8px;border:1px solid #e0e6ed;border-radius:10px;background:#fff}.work-start-name{font-weight:700;flex:1}.work-start-meta{font-size:11px;text-align:right;color:#5f6b76}.work-start-circle{width:42px!important;height:42px!important;min-width:42px;padding:0!important;margin:0!important;border-radius:50%!important;border:2px solid #9aa8b5!important;background:#fff!important;color:#607080!important;font-size:19px!important;display:flex;align-items:center;justify-content:center}.work-start-circle:disabled{opacity:.75;cursor:wait}.work-start-circle.started{background:#16a34a!important;border-color:#15803d!important;color:#fff!important}.work-start-status{margin-top:8px;padding:8px;border-radius:8px;background:#eef5ff;font-size:13px}.work-start-status.active{background:#eaf8ee;color:#167a36;border:1px solid #9bd5aa;font-weight:700}.live-admin-card{margin:12px 0;padding:12px;border:1px solid #9bd5aa;border-radius:12px;background:#f3fff6}.live-worker{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #d8efdd}.live-worker:last-child{border-bottom:0}.live-green{color:#167a36;font-weight:800}</style><style>
 .work-start-single{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border:1px solid #dfe6ee;border-radius:12px;background:#fff}
 .work-start-single-text{font-size:14px;line-height:1.5;color:#26323d}
 .work-start-time{font-weight:800}
@@ -65,7 +65,7 @@ button:active{transform:translateY(2px)!important;box-shadow:inset 3px 3px 8px #
 .record{background:linear-gradient(145deg,#1b1b1b,#090909)!important;color:#eee!important;border-left:4px solid #777!important;box-shadow:inset 2px 2px 6px #000,0 4px 10px #000!important}
 .work-start-card,.work-start-single,.work-start-empty,.live-admin-card{background:linear-gradient(145deg,#1a1a1a,#080808)!important;color:#eee!important;border-color:#383838!important;box-shadow:inset 2px 2px 7px #000,0 4px 12px #000!important}
 .work-start-circle{background:linear-gradient(145deg,#3b3b3b,#090909)!important;color:#fff!important;border-color:#777!important;box-shadow:inset 2px 2px 5px #777,inset -2px -2px 5px #000,0 5px 12px #000!important}
-.work-start-circle.started{background:linear-gradient(145deg,#22c55e,#15803d)!important;border-color:#16a34a!important;color:#fff!important;box-shadow:0 0 0 3px #22c55e33,inset 2px 2px 5px #86efac55,0 5px 12px #14532d!important}
+.work-start-circle.started{background:linear-gradient(145deg,#444,#111)!important;border-color:#888!important;color:#fff!important}
 #adminTable{color:#eee!important}
 #adminTable th,#adminTable td{border-color:#3a3a3a!important}
 .danger-btn{background:linear-gradient(145deg,#8f1d1d,#350505)!important;border-color:#a44!important}
@@ -191,7 +191,6 @@ label.label-invalid{color:#ff6868!important}
 .location-number-grid button.selected-location,.village-grid button.selected-location{background:linear-gradient(145deg,#35ff68,#0b7d2e)!important;border-color:#8dffac!important;box-shadow:0 0 16px #20e85a66,inset 2px 2px 5px #b8ffca55!important}
 .location-village-panel .village-grid{display:none;grid-template-columns:1fr;gap:7px;margin:7px 0 0;max-height:180px;overflow:auto;padding:2px}.location-village-panel .village-grid.open{display:grid!important}.village-toggle:disabled{opacity:.45!important;cursor:not-allowed!important}
 .village-toggle.selected-village-toggle{background:linear-gradient(145deg,#35ff68,#0b7d2e)!important;border-color:#8dffac!important;box-shadow:0 0 16px #20e85a66,inset 2px 2px 5px #b8ffca55!important;color:#fff!important}
-.location-village-panel .village-grid button.selected-village-option{background:linear-gradient(145deg,#35ff68,#0b7d2e)!important;background-color:#0b7d2e!important;border:2px solid #8dffac!important;color:#fff!important;box-shadow:0 0 16px rgba(32,232,90,.55),inset 2px 2px 5px rgba(184,255,202,.33)!important;font-weight:900!important}
 .location-village-panel .village-grid button{min-height:48px;margin:0!important}
 .village-choice{display:flex!important;flex-direction:column!important;align-items:stretch!important;text-align:center!important}
 .village-message{display:block;margin-top:4px;font-size:11px;line-height:1.25;color:#d8e5ee;opacity:.9;font-weight:600}
@@ -604,10 +603,18 @@ label.label-invalid{color:#ff6868!important}
 .app-dialog-head{display:flex;align-items:center;gap:12px;padding:18px 20px 12px}.app-dialog-icon{width:44px;height:44px;min-width:44px;border-radius:14px;display:grid;place-items:center;background:rgba(111,196,239,.14);border:1px solid rgba(139,211,255,.28);font-size:23px}.app-dialog-title{font-size:19px;font-weight:800;line-height:1.2}.app-dialog-body{padding:4px 20px 18px;font-size:16px;line-height:1.6;color:#e6f0f7;white-space:pre-wrap;word-break:break-word}.app-dialog-input{width:100%;box-sizing:border-box;padding:13px 14px;margin-top:4px;border-radius:12px;border:1px solid rgba(139,211,255,.35);background:#08141e;color:#fff;font-size:16px;outline:none}.app-dialog-input:focus{border-color:#7dd3fc;box-shadow:0 0 0 3px rgba(125,211,252,.13)}.app-dialog-actions{display:flex;gap:10px;padding:0 20px 20px}.app-dialog-actions button{margin:0!important;flex:1;border-radius:12px!important;padding:12px 14px!important;font-weight:800!important}.app-dialog-cancel{background:#263947!important;color:#e7f2f8!important;border:1px solid rgba(255,255,255,.12)!important}.app-dialog-ok{background:linear-gradient(180deg,#2187c5,#12649b)!important;color:#fff!important;border:1px solid rgba(255,255,255,.12)!important}.app-dialog-danger{background:linear-gradient(180deg,#e5484d,#b4232a)!important}.app-dialog-success{background:linear-gradient(180deg,#22a866,#16804c)!important}.app-dialog-actions button:active{transform:scale(.98)}
 </style>
 
+<style id="worker-direct-camera-style">
+.worker-photo-capture-box{margin:8px 0 12px;padding:10px;border:1px solid #4f7187;border-radius:15px;background:linear-gradient(145deg,#132635,#08131b);box-shadow:inset 2px 2px 6px #6f9dbb22,0 5px 12px #000}
+.worker-camera-open{width:100%!important;min-height:52px!important;margin:0!important;font-size:17px!important;font-weight:900!important}
+.worker-camera-note{font-size:11px;color:#b9ceda;text-align:center;margin-top:7px;line-height:1.4}
+.worker-photo-preview{margin-top:8px;display:grid;grid-template-columns:1fr;gap:8px}.worker-photo-preview img{width:100%;max-height:360px;object-fit:contain;border-radius:12px;border:1px solid #5c8196;background:#000}
+.worker-camera-dialog{width:min(620px,96vw)!important}.worker-camera-video{width:100%;max-height:62vh;object-fit:cover;border-radius:16px;background:#000;border:1px solid #5b849a;margin-top:8px;display:block}.worker-camera-actions{display:grid;grid-template-columns:1fr 1.3fr;gap:8px;margin-top:10px}.worker-camera-actions button{margin:0!important;min-height:50px!important}
+@media(max-width:600px){.worker-camera-video{max-height:58vh}.worker-camera-actions{grid-template-columns:1fr 1fr}}
+</style>
 <style id="field-camera-feature-style">
 .today-attendance-title-row{display:flex!important;align-items:center!important;justify-content:center!important;position:relative!important;width:100%!important;margin:0 auto 12px!important;min-height:58px!important}.today-attendance-title-row .today-attendance-title{margin:0!important;flex:0 0 auto!important;width:max-content!important;max-width:72%!important;padding:10px 22px!important;font-size:clamp(24px,7vw,34px)!important;line-height:1.05!important}.today-camera-btn{position:absolute!important;right:0!important;top:50%!important;transform:translateY(-50%)!important;width:46px!important;height:46px!important;min-width:46px!important;padding:0!important;margin:0!important;border-radius:50%!important;font-size:22px!important;display:grid!important;place-items:center!important;background:linear-gradient(145deg,#427f9f,#102331)!important;border:1px solid #83c5e8!important;box-shadow:inset 2px 2px 5px #bde8ff55,inset -3px -3px 6px #000,0 6px 12px #000!important}.today-camera-btn:active{transform:translateY(-50%) scale(.95)!important}
-.field-camera-modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:10px;background:rgba(0,0,0,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:2147482990}.field-camera-modal.open{display:flex}.field-camera-dialog{width:min(680px,96vw);max-height:94vh;overflow:auto;border-radius:22px;background:linear-gradient(145deg,#172b3a,#071018);border:1px solid #6b9fba;box-shadow:0 20px 70px #000,inset 1px 1px 0 #ffffff14;color:#fff;padding:13px}.field-camera-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:20px}.field-camera-sub{font-size:11px;color:#b7d2e1;margin-top:3px}.field-camera-close{width:44px!important;height:44px!important;min-width:44px!important;padding:0!important;margin:0!important;border-radius:50%!important}.field-camera-toolbar{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin:10px 0}.field-camera-toolbar button{min-height:46px!important;margin:0!important;font-size:14px!important}.field-camera-form{display:grid;grid-template-columns:1fr 1fr;gap:8px}.field-camera-form>div:last-child{grid-column:1/-1}.field-camera-form label{display:block;font-size:12px;margin:0 0 4px}.field-camera-form select,.field-camera-form textarea,.whatsapp-admin-card input{width:100%;box-sizing:border-box;min-height:44px;padding:10px;border-radius:10px;border:1px solid #55758a;background:#091721;color:#fff}.field-camera-form textarea{resize:vertical}.field-camera-count-row{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:10px 0 7px;padding:9px 11px;border:1px solid #35566b;border-radius:11px;background:#0b1821;font-size:12px}.field-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;max-height:45vh;overflow:auto}.field-photo-card{position:relative;border:1px solid #3d6175;border-radius:13px;overflow:hidden;background:#071018}.field-photo-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}.field-photo-x{position:absolute!important;top:5px!important;right:5px!important;width:34px!important;height:34px!important;min-width:34px!important;padding:0!important;margin:0!important;border-radius:50%!important;background:#c62828!important;border:1px solid #ff9b9b!important;font-size:17px!important}.field-photo-meta{padding:5px;font-size:9px;line-height:1.25;color:#dbeaf3}.field-camera-actions{display:grid;grid-template-columns:1fr 1.4fr;gap:8px;margin-top:10px}.field-camera-actions button{margin:0!important;min-height:48px!important}.field-send-btn{background:linear-gradient(145deg,#2e9b61,#0b4b2b)!important;border-color:#7ee5a8!important}.field-camera-note{font-size:10px;line-height:1.45;color:#9eb7c5;margin-top:8px;padding:8px;border:1px dashed #35566b;border-radius:10px}.whatsapp-admin-card{margin:14px 0;padding:13px;border:1px solid #355b70;border-radius:14px;background:linear-gradient(145deg,#101e28,#080e13)}.whatsapp-admin-card input{margin:8px 0}.whatsapp-admin-card button{min-height:42px;margin:0!important}.field-camera-modal .status{min-height:20px;margin:8px 0}.field-gps-chip{color:#8ff0aa}.field-normal-chip{color:#a9d9ff}
-@media(max-width:600px){.field-camera-toolbar{grid-template-columns:1fr 1fr}.field-camera-toolbar button:last-child{grid-column:auto}.field-camera-form{grid-template-columns:1fr}.field-camera-form>div:last-child{grid-column:auto}.field-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.field-camera-actions{grid-template-columns:1fr 1fr}.today-camera-btn{width:42px!important;height:42px!important;min-width:42px!important;font-size:21px!important}.today-attendance-title-row .today-attendance-title{font-size:24px!important;padding:9px 16px!important}}
+.field-camera-modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:10px;background:rgba(0,0,0,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:2147482990}.field-camera-modal.open{display:flex}.field-camera-dialog{width:min(680px,96vw);max-height:94vh;overflow:auto;border-radius:22px;background:linear-gradient(145deg,#172b3a,#071018);border:1px solid #6b9fba;box-shadow:0 20px 70px #000,inset 1px 1px 0 #ffffff14;color:#fff;padding:13px}.field-camera-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:20px}.field-camera-sub{font-size:11px;color:#b7d2e1;margin-top:3px}.field-camera-close{width:44px!important;height:44px!important;min-width:44px!important;padding:0!important;margin:0!important;border-radius:50%!important}.field-camera-toolbar{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin:10px 0}.field-camera-toolbar button{min-height:46px!important;margin:0!important;font-size:14px!important}.field-camera-form{display:grid;grid-template-columns:1fr 1fr;gap:8px}.field-camera-form>div:last-child{grid-column:1/-1}.field-camera-form label{display:block;font-size:12px;margin:0 0 4px}.field-camera-form select,.field-camera-form textarea,.whatsapp-admin-card input{width:100%;box-sizing:border-box;min-height:44px;padding:10px;border-radius:10px;border:1px solid #55758a;background:#091721;color:#fff}.field-camera-form textarea{resize:vertical}.field-camera-count-row{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:10px 0 7px;padding:9px 11px;border:1px solid #35566b;border-radius:11px;background:#0b1821;font-size:12px}.field-photo-grid{display:grid;grid-template-columns:1fr;gap:10px;max-height:60vh;overflow:auto}.field-photo-card{position:relative;border:1px solid #3d6175;border-radius:13px;overflow:hidden;background:#071018}.field-photo-card img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;background:#000}.field-photo-x{position:absolute!important;top:5px!important;right:5px!important;width:34px!important;height:34px!important;min-width:34px!important;padding:0!important;margin:0!important;border-radius:50%!important;background:#c62828!important;border:1px solid #ff9b9b!important;font-size:17px!important}.field-photo-meta{padding:6px;font-size:10px;line-height:1.25;color:#dbeaf3}.field-camera-actions{display:grid;grid-template-columns:1fr 1.4fr;gap:8px;margin-top:10px}.field-camera-actions button{margin:0!important;min-height:48px!important}.field-send-btn{background:linear-gradient(145deg,#2e9b61,#0b4b2b)!important;border-color:#7ee5a8!important}.field-camera-note{font-size:10px;line-height:1.45;color:#9eb7c5;margin-top:8px;padding:8px;border:1px dashed #35566b;border-radius:10px}.whatsapp-admin-card{margin:14px 0;padding:13px;border:1px solid #355b70;border-radius:14px;background:linear-gradient(145deg,#101e28,#080e13)}.whatsapp-admin-card input{margin:8px 0}.whatsapp-admin-card button{min-height:42px;margin:0!important}.field-camera-modal .status{min-height:20px;margin:8px 0}.field-gps-chip{color:#8ff0aa}.field-normal-chip{color:#a9d9ff}
+@media(max-width:600px){.field-camera-toolbar{grid-template-columns:1fr 1fr}.field-camera-toolbar button:last-child{grid-column:auto}.field-camera-form{grid-template-columns:1fr}.field-camera-form>div:last-child{grid-column:auto}.field-photo-grid{grid-template-columns:1fr;gap:8px}.field-camera-actions{grid-template-columns:1fr 1fr}.today-camera-btn{width:42px!important;height:42px!important;min-width:42px!important;font-size:21px!important}.today-attendance-title-row .today-attendance-title{font-size:24px!important;padding:9px 16px!important}}
 /* v40 layout refinements */
 #adminPanel>h2{text-align:center!important;margin-left:auto!important;margin-right:auto!important}
 #adminPanel>#adminPin{display:block!important;width:min(92%,360px)!important;margin:10px auto!important;text-align:center!important}
@@ -695,93 +702,8 @@ label.label-invalid{color:#ff6868!important}
   .today-camera-btn{right:3px!important;width:36px!important;height:36px!important;min-width:36px!important;font-size:17px!important}
 }
 </style>
-
-<style id="vbdcp-admin-summary-compact-v5">
-/* V5: compact Admin Attendance Summary for mobile */
-#adminSummary{padding:8px 10px!important;margin-top:7px!important;border-radius:10px!important;font-size:14px!important;line-height:1.35!important;text-align:left!important}
-#adminSummary b{font-size:15px!important}
-#adminCount{font-size:12px!important;margin:3px 0!important;opacity:.85}
-#adminTable{font-size:11px!important;margin-top:8px!important;table-layout:auto!important}
-#adminTable th,#adminTable td{padding:4px 5px!important;line-height:1.2!important;vertical-align:middle!important}
-#adminTable th{font-size:11px!important;white-space:nowrap!important}
-#adminTable td{font-size:11px!important}
-#adminTable img{max-width:42px!important;max-height:42px!important}
-#adminTable .admin-select-cell{width:24px!important;min-width:24px!important;padding:2px!important;text-align:center!important}
-#adminTable .admin-select-cell input{width:16px!important;min-height:16px!important;height:16px!important;padding:0!important;margin:0!important}
-#adminTable .admin-action-stack{display:flex!important;gap:3px!important;align-items:center!important;flex-wrap:nowrap!important}
-#adminTable .admin-action-stack button{min-height:30px!important;height:30px!important;width:auto!important;margin:0!important;padding:3px 6px!important;border-radius:7px!important;font-size:10px!important;line-height:1!important;white-space:nowrap!important}
-#adminTable .admin-note-cell{min-width:34px!important;text-align:center!important}
-#adminTable .admin-note-cell{color:#ff4d4d!important;font-weight:900!important;font-size:18px!important}
-#adminTable td:nth-child(2){white-space:nowrap!important;font-size:10px!important}
-#adminTable td:nth-child(3),#adminTable td:nth-child(4),#adminTable td:nth-child(6){white-space:nowrap!important}
-@media(max-width:600px){
-  #adminTable{font-size:10px!important}
-  #adminTable th,#adminTable td{padding:3px 4px!important}
-  #adminTable th{font-size:10px!important}
-  #adminTable td{font-size:10px!important}
-  #adminTable .admin-action-stack button{min-height:28px!important;height:28px!important;padding:2px 5px!important;font-size:9px!important}
-  #adminSummary{font-size:13px!important}
-  #adminSummary b{font-size:14px!important}
-}
-</style>
-<style id="worker-dashboard-status-only">#workerDashboard .worker-dashboard-message-wrap,#workerDashboard #workerDashboardMessageBtn,#workerDashboard .worker-message-badge{display:none!important}</style>
-<style id="vbdcp-admin-summary-final-compact">
-/* Final mobile summary: keep ordinary comments small/white; only Absent X is red/large. */
-#adminTable .admin-note-cell,
-#adminTable .admin-note-cell:not(.absent-note){
-  min-width:105px!important;
-  width:18%!important;
-  max-width:220px!important;
-  padding:4px 5px!important;
-  text-align:left!important;
-  vertical-align:top!important;
-  white-space:normal!important;
-  word-break:break-word!important;
-  overflow-wrap:anywhere!important;
-  color:#f2f2f2!important;
-  font-size:10px!important;
-  font-weight:500!important;
-  line-height:1.25!important;
-  text-shadow:1px 1px 2px #000!important;
-}
-#adminTable .admin-note-cell.absent-note,
-#adminTable .admin-note-cell.absent-note .absent-note{
-  min-width:34px!important;
-  width:auto!important;
-  max-width:none!important;
-  padding:3px 4px!important;
-  text-align:center!important;
-  color:#ff4d4d!important;
-  font-size:18px!important;
-  font-weight:900!important;
-  line-height:1!important;
-}
-#adminTable .admin-gps-cell{
-  text-align:left!important;
-  vertical-align:top!important;
-  font-size:9px!important;
-  line-height:1.2!important;
-}
-#adminTable .admin-gps-line,
-#adminTable .admin-gps-coord,
-#adminTable .admin-gps-distance{
-  text-align:left!important;
-}
-@media(max-width:600px){
-  #adminTable .admin-note-cell,
-  #adminTable .admin-note-cell:not(.absent-note){
-    min-width:92px!important;
-    width:20%!important;
-    max-width:200px!important;
-    font-size:9px!important;
-    line-height:1.2!important;
-    padding:3px 4px!important;
-  }
-  #adminTable .admin-note-cell.absent-note{font-size:18px!important;min-width:32px!important}
-}
-</style>
-</head><body data-vbdcp-version="v47">
-<header><div class="brand"><div class="vbdcp-title-wrap"><img src="mosquito-red.svg" class="title-mosquito" alt="Mosquito"><div><h2><span class="vbdcp-color-title">VBDCP</span></h2><div>Online Attendance App</div></div><img src="mosquito-red.svg" class="title-mosquito flip" alt="Mosquito"></div></div></header><div id="connectionStatus" class="connection-status" aria-live="polite"></div><main>
+</head><body>
+<header><div class="brand"><div class="vbdcp-title-wrap"><img src="mosquito-red.svg" class="title-mosquito" alt="Mosquito"><div><h2><span class="vbdcp-color-title">VBDCP</span></h2><div>Online Attendance App</div></div><img src="mosquito-red.svg" class="title-mosquito flip" alt="Mosquito"></div></div></header><main>
 <div class="card"><div class="menu3" id="mainMenu"><button data-tab="attendance" onclick="showTab('attendance')">👷 কর্মীর Attendance</button><button class="secondary" data-tab="workerDashboard" onclick="showTab('workerDashboard')">📊 কর্মীর Dashboard</button><button class="secondary" data-tab="adminLogin" onclick="showTab('adminLogin')">🔐 Admin Login</button></div></div>
 <section id="attendance"><div class="card attendance-card">
 <div class="today-attendance-title-row"><h3 class="today-attendance-title">Today Attendance</h3><button type="button" class="today-camera-btn" onclick="openFieldCamera()" aria-label="কাজের ছবি ক্যামেরা">📷</button></div>
@@ -810,13 +732,19 @@ label.label-invalid{color:#ff6868!important}
   </div>
 </div>
 <input id="address" class="address-auto" readonly>
-<label>কর্মীর ছবি</label><input id="photo" type="file" accept="image/*" capture="environment">
+<label>কর্মীর ছবি <span class="required-mark">*</span></label>
+<div class="worker-photo-capture-box">
+  <button type="button" class="worker-camera-open" onclick="openWorkerCamera()">📷 কর্মীর ছবি তুলুন</button>
+  <div class="worker-camera-note">শুধু ফোনের Front / Back Camera দিয়ে ছবি তুলতে হবে। Gallery থেকে ছবি নেওয়া যাবে না।</div>
+  <div id="workerPhotoPreview" class="worker-photo-preview"></div>
+</div>
 <div class="date-time-row"><div class="date-time-item"><label>তারিখ</label><input id="date" type="hidden"><input id="dateDisplay" type="text" readonly aria-readonly="true"></div><div class="date-time-item"><label>সময়</label><input id="time" type="text" readonly aria-readonly="true"></div></div>
 <label>পাড়া / অতিরিক্ত লোকেশন (ঐচ্ছিক)</label><textarea id="note" rows="1" placeholder=""></textarea>
 <div class="gps-actions"><button type="button" class="secondary" onclick="openLiveMap()">🗺️ Live Map</button></div><div id="gps" class="status">GPS চালু হচ্ছে...</div>
 <button onclick="saveAttendance()">✅ Attendance Save করুন</button><div id="msg" class="status"></div></div></section>
 <section id="workerDashboard" class="hidden"><div class="card worker-dashboard-card"><div class="worker-dashboard-title">📊 <span>কর্মীর Dashboard</span></div>
 <div class="worker-dashboard-subtitle">*কর্মীর Attendance &amp; Absent*</div>
+<div class="worker-dashboard-message-wrap"><button type="button" id="workerDashboardMessageBtn" class="worker-dashboard-message-btn" onclick="window.openCurrentWorkerMessages()">💬 <span>কর্মী মেসেজ (Password)</span><b id="workerMessageBadge" class="worker-message-badge hidden">নতুন</b></button></div>
 <label>কর্মীর নাম</label><select id="dashWorker" onchange="window.handleDashWorkerChange(this.value)"><option value="">-- নিজের নাম নির্বাচন করুন --</option><option value="লালন পাল">লালন পাল</option><option value="প্রতুল দলুই">প্রতুল দলুই</option><option value="লাল টুডু">লাল টুডু</option><option value="সুভাষ দাস">সুভাষ দাস</option><option value="সৌতম দাস">সৌতম দাস</option><option value="সুকুমার রানা">সুকুমার রানা</option></select>
 <div class="row"><div><label>From Date</label><input id="dashFrom" type="date"></div><div><label>To Date</label><input id="dashTo" type="date"></div></div>
 <button onclick="loadWorkerDashboard()">🔄 Dashboard দেখুন</button><div id="dashSummary" class="status"></div><div id="dashRecords"></div></div></section>
@@ -830,21 +758,28 @@ label.label-invalid{color:#ff6868!important}
     <div class="app-notice-actions"><button type="button" onclick="closeAppNotice()">ঠিক আছে</button></div>
   </div>
 </div>
+<div id="workerCameraModal" class="field-camera-modal" aria-hidden="true">
+  <div class="field-camera-dialog worker-camera-dialog">
+    <div class="field-camera-head"><div><b>📷 কর্মীর ছবি</b></div><button type="button" class="field-camera-close" onclick="closeWorkerCamera()">✕</button></div>
+    <video id="workerCameraVideo" class="worker-camera-video" autoplay playsinline muted></video>
+    <canvas id="workerCameraCanvas" class="hidden"></canvas>
+    <div class="worker-camera-actions">
+      <button type="button" onclick="switchWorkerCamera()">🔄 Front / Back</button>
+      <button type="button" class="field-send-btn" onclick="takeWorkerPhoto()">📸 ছবি তুলুন</button>
+    </div>
+    <div id="workerCameraStatus" class="status">ক্যামেরা চালু হচ্ছে…</div>
+  </div>
+</div>
 <div id="fieldCameraModal" class="field-camera-modal" aria-hidden="true">
   <div class="field-camera-dialog">
     <div class="field-camera-head"><div><b>📷 কাজের ছবি</b></div><button type="button" class="field-camera-close" onclick="closeFieldCamera()">✕</button></div>
+    <video id="fieldCameraVideo" class="worker-camera-video" autoplay playsinline muted></video>
     <div class="field-camera-toolbar">
       <button type="button" onclick="captureFieldPhoto('gps')">📍 GPS Camera</button>
       <button type="button" onclick="captureFieldPhoto('normal')">📷 Normal Camera</button>
-      
+      <button type="button" onclick="switchFieldCamera()">🔄 Front / Back</button>
     </div>
-    <!-- Camera-only metadata: সংসদ/গ্রাম/Remarks are optional ONLY inside this camera window. Attendance work-address rules remain unchanged. -->
-    <div class="field-camera-form">
-      <div><label>সংসদ <span style="font-weight:400;opacity:.65">(ঐচ্ছিক)</span></label><select id="cameraParliament" onchange="cameraParliamentChanged()"></select></div>
-      <div id="cameraVillageWrap" class="field-camera-conditional"><label>গ্রাম <span style="font-weight:400;opacity:.65">(ঐচ্ছিক)</span></label><select id="cameraVillage" onchange="cameraVillageChanged()"></select></div>
-      <div id="cameraRemarksWrap" class="field-camera-conditional"><label>Remarks <span style="font-weight:400;opacity:.65">(ঐচ্ছিক)</span></label><textarea id="cameraRemarks" rows="2" placeholder="কাজের মন্তব্য / Remarks"></textarea></div>
-    </div>
-    <div id="fieldCameraStatus" class="status">ক্যামেরার ছবির জন্য সংসদ/গ্রাম/Remarks দেওয়া ঐচ্ছিক। চাইলে সবগুলো Skip করে সরাসরি ছবি তুলতে পারেন।</div>
+    <div id="fieldCameraStatus" class="status">📷 সরাসরি Camera দিয়ে ছবি তুলুন।</div>
     <div class="field-camera-count-row"><b>মোট ছবি: <span id="fieldCameraCount">0</span></b><span>একবারে একটি ছবি তুলে যত খুশি যোগ করতে পারবেন</span></div>
     <div id="fieldPhotoGrid" class="field-photo-grid"></div>
     <div class="field-camera-actions"><button type="button" onclick="captureFieldPhoto('normal')">➕ আরও ছবি</button><button type="button" class="field-send-btn" onclick="sendFieldPhotosToWhatsApp()">📤 Send Photos</button></div>
@@ -877,27 +812,20 @@ const firebaseConfig = {
   measurementId: "G-FB7EPDF91M"
 };
 const app=initializeApp(firebaseConfig),db=getFirestore(app),auth=getAuth(app);
-const authReady=signInAnonymously(auth).then(r=>{setTimeout(()=>updateConnectionStatus('firebase-ok'),0);return r;}).catch(e=>{console.error("Anonymous sign-in failed:",e);setTimeout(()=>window.showFirebaseProblem?.("Firebase সংযোগ পাওয়া যাচ্ছে না। আপনার ফোনের ডেটা ফোনেই নিরাপদে Save থাকবে; Internet ঠিক হলে আবার Sync হবে।",e),0);throw e;});
+const authReady=signInAnonymously(auth).catch(e=>{console.error("Anonymous sign-in failed:",e);$("msg").textContent="❌ Firebase login failed: "+e.message;throw e;});
 window.db=db;window.authReady=authReady;window.collection=collection;window.addDoc=addDoc;window.getDocs=getDocs;window.doc=doc;window.setDoc=setDoc;window.updateDoc=updateDoc;window.deleteDoc=deleteDoc;window.onSnapshot=onSnapshot;window.query=query;window.where=where;
 const $=id=>document.getElementById(id);
-const WORKERS=["লালন পাল","প্রতুল দলুই","লাল টুডু","সুভাষ দাস","সৌতম দাস","সুকুমার রানা"]; window.WORKERS=WORKERS;
+const WORKERS=["লালন পাল","প্রতুল দলুই","লাল টুডু","সুভাষ দাস","সৌতম দাস","সুকুমার রানা"];
 const WORK_KEY="vct_work_sessions_v2";
 function sessions(){try{return JSON.parse(localStorage.getItem(WORK_KEY)||"{}")||{}}catch(e){return {}}}
 function saveSessions(x){localStorage.setItem(WORK_KEY,JSON.stringify(x))}
 function clock(iso){return new Date(iso).toLocaleTimeString("en-IN",{hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true}).toUpperCase()}
 function todayKey(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 function getSelectedWorker(){
-  /* The visible worker picker is the source of truth. The native select is hidden
-     and can sometimes remain empty on Android after a custom-picker selection. */
-  const d=$("selectedWorkerDisplay");
-  const displayName=String(d?.textContent||"").trim();
-  if(displayName && displayName!=="কর্মীর নাম নির্বাচন করুন" && Array.isArray(WORKERS) && WORKERS.includes(displayName)) return displayName;
   const sel=$("worker");
-  if(sel){
-    const opt=sel.options[sel.selectedIndex];
-    if(opt && opt.value) return opt.value;
-  }
-  return "";
+  if(!sel)return "";
+  const opt=sel.options[sel.selectedIndex];
+  return opt && opt.value ? opt.value : "";
 }
 function renderWork(sel){
   const box=$("workStartList");
@@ -924,45 +852,10 @@ function renderWork(sel){
   </div>
   <div id="workStartGpsStatus" class="work-start-gps-status">${valid ? "✅ GPS সফলভাবে নেওয়া হয়েছে।" : "গোল বাটনে চাপলে GPS নেওয়া হবে।"}</div>`;
 }
-async function getFreshGPS(){
-  if(!navigator.geolocation) throw new Error('এই ফোন/Browser-এ GPS সাপোর্ট নেই।');
-  if(window.isSecureContext===false){
-    throw new Error('GPS চালাতে HTTPS অথবা localhost দরকার। Localhost Lite-এ http://localhost:8080 খুলুন; 100.xx.xx.xx:8080 ঠিকানায় Chrome GPS permission দেয় না।');
-  }
-  const get=(opts)=>new Promise((resolve,reject)=>navigator.geolocation.getCurrentPosition(resolve,reject,opts));
-  try{
-    return await get({enableHighAccuracy:true,timeout:90000,maximumAge:0});
-  }catch(first){
-    return await get({enableHighAccuracy:false,timeout:45000,maximumAge:10000});
-  }
-}
-
-async function reverseGeocodeGPS(lat0,lng0){
-  try{
-    const controller=new AbortController();
-    const timer=setTimeout(()=>controller.abort(),6000);
-    const url=`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat0)}&lon=${encodeURIComponent(lng0)}&zoom=18&addressdetails=1&accept-language=bn,en`;
-    const res=await fetch(url,{signal:controller.signal,headers:{'Accept':'application/json'}});
-    clearTimeout(timer);
-    if(!res.ok)throw new Error('reverse geocode HTTP '+res.status);
-    const d=await res.json();
-    const a=d?.address||{};
-    const name=a.village||a.hamlet||a.suburb||a.neighbourhood||a.locality||a.town||a.city_district||a.city||a.municipality||a.county||d?.name||'';
-    const state=a.state||'';
-    const district=a.state_district||a.district||'';
-    return [name,district,state].filter(Boolean).filter((v,i,a)=>a.indexOf(v)===i).join(', ');
-  }catch(e){
-    console.warn('GPS reverse geocode failed:',e);
-    return '';
-  }
-}
-window.reverseGeocodeGPS=reverseGeocodeGPS;
-
 function startSelectedWork(){
   const w=getSelectedWorker();
   if(!w)return;
   if(!workerCanUse(w)){uiAlert(settingsFor(w).password?'🔒 আগে Password দিয়ে Lock খুলুন।':'🔒 এই কর্মী Admin Lock করেছেন। Admin ছাড়া Unlock করা যাবে না.');return;}
-  if(!selectedLocationNumber || !selectedVillage){uiAlert('❌ কাজ শুরু করার আগে সংসদ ও গ্রাম নির্বাচন করুন।\n\nGPS Start-এর সঙ্গে নির্বাচিত গ্রাম সংরক্ষণ করা হবে।','গ্রাম নির্বাচন করুন','📍');return;}
   window.startWork(encodeURIComponent(w));
 }
 window.startSelectedWork=startSelectedWork;
@@ -978,31 +871,26 @@ window.startWork=async enc=>{
   if(status)status.textContent="📡 GPS নেওয়া হচ্ছে… একটু অপেক্ষা করুন।";
   if($("gps"))$("gps").textContent="📍 Start GPS নেওয়া হচ্ছে…";
 
-  const finish=async(pos)=>{
+  const finish=(pos)=>{
     const c=pos.coords;
     lat=c.latitude; lng=c.longitude; accuracy=c.accuracy;
     const startedAt=new Date().toISOString();
-    const gpsPlace=await reverseGeocodeGPS(lat,lng);
     x[w]={
       startDate:todayKey(),
       startedAt,
       startLatitude:lat,
       startLongitude:lng,
       startAccuracy:accuracy,
-      startLocationNumber:String(selectedLocationNumber||''),
-      startVillage:String(selectedVillage||''),
-      startPlaceName:gpsPlace||String(selectedVillage||'GPS এলাকা'),
       gpsVerified:true
     };
     saveSessions(x);
-    if($("gps"))$("gps").textContent=`📍 Start GPS: ${x[w].startPlaceName} — ${lat.toFixed(6)}, ${lng.toFixed(6)}`;
+    if($("gps"))$("gps").textContent=`📍 Start GPS নেওয়া হয়েছে — Latitude: ${lat.toFixed(6)}, Longitude: ${lng.toFixed(6)}`;
     renderWork();
   };
 
   const fail=(err)=>{
     let reason="GPS পাওয়া যায়নি।";
-    if(window.isSecureContext===false) reason="GPS চালাতে HTTPS অথবা localhost দরকার। Localhost Lite-এ http://localhost:8080 খুলুন; 100.xx.xx.xx:8080 ঠিকানায় Chrome GPS permission দেয় না।";
-    else if(err && err.code===1) reason="Location permission বন্ধ আছে। ফোনের Settings → Location/Browser permission থেকে Location Allow করুন।";
+    if(err && err.code===1) reason="Location permission বন্ধ আছে। ফোনের Settings → Location/Browser permission থেকে Location Allow করুন।";
     else if(err && err.code===2) reason="বর্তমান Location পাওয়া যাচ্ছে না। ফোনের GPS/Location ON করুন এবং খোলা জায়গায় দাঁড়িয়ে আবার চেষ্টা করুন।";
     else if(err && err.code===3) reason="GPS নিতে সময় বেশি লাগছে। Location/GPS ON রেখে আবার গোল Start বাটনে চাপুন।";
     else if(!navigator.geolocation) reason="এই ফোন/Browser-এ GPS সাপোর্ট নেই।";
@@ -1021,7 +909,11 @@ window.startWork=async enc=>{
     return;
   }
 
-  getFreshGPS().then(finish).catch(fail);
+  navigator.geolocation.getCurrentPosition(
+    finish,
+    fail,
+    {enableHighAccuracy:true, timeout:30000, maximumAge:0}
+  );
 }
 
 function clearWork(w){let x=sessions();delete x[w];saveSessions(x);renderWork()}
@@ -1031,7 +923,6 @@ window.addEventListener("load",()=>{
   setTimeout(renderWork,100);
   setTimeout(renderWork,500);
   setTimeout(renderWork,1000);
-  if(window.isSecureContext===false && $("gps")) $("gps").textContent="⚠️ GPS-এর জন্য HTTPS অথবা http://localhost:8080 ব্যবহার করুন।";
 });
 /* Android can restore the selected option after initial script execution. */
 window.addEventListener("load",()=>{
@@ -1087,8 +978,6 @@ async function syncPendingAttendance(){
   }
   try{if(typeof window.loadRecords==='function')window.loadRecords();}catch(e){}
 }
-function haversineMeters(lat1,lon1,lat2,lon2){const R=6371000,rad=Math.PI/180,dLat=(lat2-lat1)*rad,dLon=(lon2-lon1)*rad,a=Math.sin(dLat/2)**2+Math.cos(lat1*rad)*Math.cos(lat2*rad)*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.min(1,Math.sqrt(a)));}
-
 window.saveAttendance=async()=>{
   if(!selectedLocationNumber || !selectedVillage){const a=document.getElementById("address");a.classList.add("field-invalid");setTimeout(()=>a.classList.remove("field-invalid"),900);document.getElementById("msg").className="error";document.getElementById("msg").textContent="❌ কাজের ঠিকানা নির্বাচন করুন: আগে নম্বর, তারপর গ্রাম বেছে নিন।";return;}
 
@@ -1114,31 +1003,12 @@ window.saveAttendance=async()=>{
     msg.textContent="Save হচ্ছে...";
 
     let photoData="";
-    const f=$("photo").files[0];
-    if(f)photoData=await compressImage(f);
+    const f=(typeof window.getWorkerCameraFile==='function'?window.getWorkerCameraFile():null);
+    if(!f){msg.className="error";msg.textContent="❌ আগে কর্মীর ছবি ফোনের Camera দিয়ে তুলুন। Gallery থেকে ছবি নেওয়া যাবে না।";return;}
+    photoData=await compressImage(f);
 
-    // Attendance Submit-এর সময় আবার GPS নেওয়ার চেষ্টা করা হবে, যাতে শেষ/Submit location-টাই সংরক্ষণ হয়।
-    // GPS refresh ব্যর্থ হলেও আগে পাওয়া Live GPS বা Start GPS দিয়ে Attendance বন্ধ হবে না।
-    let submitPos=null;
-    try{submitPos=await getFreshGPS();}catch(e){console.warn('Submit GPS refresh failed; using current/start GPS:',e);}
-    if(submitPos?.coords){
-      lat=submitPos.coords.latitude;
-      lng=submitPos.coords.longitude;
-      accuracy=submitPos.coords.accuracy;
-    }else if(lat==null||lng==null){
-      lat=session.startLatitude;lng=session.startLongitude;accuracy=session.startAccuracy;
-    }
+    if(lat==null||lng==null){lat=session.startLatitude;lng=session.startLongitude;accuracy=session.startAccuracy;}
     const end=new Date().toISOString();
-    const submitLocationNumber=String(selectedLocationNumber||'');
-    const submitVillage=String(selectedVillage||'');
-    const startLocationNumber=String(session.startLocationNumber||'');
-    const startVillage=String(session.startVillage||'');
-    const startPlaceName=String(session.startPlaceName||startVillage||'GPS এলাকা');
-    const submitPlaceName=(await reverseGeocodeGPS(lat,lng))||submitVillage||'GPS এলাকা';
-    const locationMismatch=!!(startVillage && submitVillage && (startVillage!==submitVillage || startLocationNumber!==submitLocationNumber));
-    const locationDistanceMeters=(session.startLatitude!=null&&session.startLongitude!=null&&lat!=null&&lng!=null)?Math.round(haversineMeters(session.startLatitude,session.startLongitude,lat,lng)):null;
-    const locationDistanceKm=locationDistanceMeters!=null?Math.round((locationDistanceMeters/1000)*100)/100:null;
-
     const data={
       worker:worker,
       address:address,
@@ -1157,15 +1027,6 @@ window.saveAttendance=async()=>{
       startLatitude:session.startLatitude,
       startLongitude:session.startLongitude,
       startAccuracy:session.startAccuracy,
-      startLocationNumber:startLocationNumber,
-      startVillage:startVillage,
-      startPlaceName:startPlaceName,
-      submitLocationNumber:submitLocationNumber,
-      submitVillage:submitVillage,
-      submitPlaceName:submitPlaceName,
-      locationMismatch:locationMismatch,
-      locationDistanceMeters:locationDistanceMeters,
-      locationDistanceKm:locationDistanceKm,
 
       createdAt:new Date().toISOString(),
       clientId:'local-att-'+Date.now()+'-'+Math.random().toString(36).slice(2),
@@ -1218,7 +1079,7 @@ window.saveAttendance=async()=>{
     $("worker").value="";
     $("address").value="";
     $("note").value="";
-    $("photo").value="";
+    if(typeof window.clearWorkerCamera==='function')window.clearWorkerCamera();
     lat=null;lng=null;accuracy=null;
     $("gps").textContent="GPS আবার চালু হচ্ছে...";
     getLocation();
@@ -1228,9 +1089,9 @@ window.saveAttendance=async()=>{
     msg.textContent="❌ Save করা যায়নি: "+(e?.message||e);
   }
 };
-window.loadRecords=async()=>{try{await authReady;const s=await getDocs(query(collection(db,"attendance"),orderBy("createdAt","desc"),limit(100))),fd=$("filterDate").value,fw=$("filterWorker").value;const cloud=[];s.forEach(d=>cloud.push({id:d.id,...d.data()}));const local=loadLocalAttendance();const cloudKeys=new Set(cloud.map(r=>r.clientId||r.id));const rows=[...cloud,...local.filter(r=>!cloudKeys.has(r.clientId||r.id))].filter(r=>!r.deleted).filter(r=>(!fd||r.date===fd)&&(!fw||r.worker===fw));$("summary").textContent=`মোট রেকর্ড: ${rows.length}`;$("records").innerHTML=rows.length?rows.map(r=>{const map=r.latitude!=null?`<a target="_blank" href="https://www.google.com/maps?q=${r.latitude},${r.longitude}">📍 Maps</a>`:"GPS নেই";const im=r.photoData?`<br><img src="${r.photoData}" alt="কাজের ছবি">`:"";const sync=r.syncStatus==='pending'?`<br><span class="small">📱 Local Save — Firebase Pending</span>`:'';return `<div class="record"><b>${r.worker}</b> — ${r.date} ${r.time}<br>ঠিকানা: ${r.address}<br>${map}<br>${r.note||""}${im}${sync}</div>`}).join(""):"কোনো Attendance নেই"}catch(e){$("records").textContent="❌ "+e.message}};
+window.loadRecords=async()=>{try{await authReady;const s=await getDocs(query(collection(db,"attendance"),orderBy("createdAt","desc"),limit(100))),fd=$("filterDate").value,fw=$("filterWorker").value;const cloud=[];s.forEach(d=>cloud.push({id:d.id,...d.data()}));const local=loadLocalAttendance();const cloudKeys=new Set(cloud.map(r=>r.clientId||r.id));const rows=[...cloud,...local.filter(r=>!cloudKeys.has(r.clientId||r.id))].filter(r=>(!fd||r.date===fd)&&(!fw||r.worker===fw));$("summary").textContent=`মোট রেকর্ড: ${rows.length}`;$("records").innerHTML=rows.length?rows.map(r=>{const map=r.latitude!=null?`<a target="_blank" href="https://www.google.com/maps?q=${r.latitude},${r.longitude}">📍 Maps</a>`:"GPS নেই";const im=r.photoData?`<br><img src="${r.photoData}" alt="কাজের ছবি">`:"";const sync=r.syncStatus==='pending'?`<br><span class="small">📱 Local Save — Firebase Pending</span>`:'';return `<div class="record"><b>${r.worker}</b> — ${r.date} ${r.time}<br>ঠিকানা: ${r.address}<br>${map}<br>${r.note||""}${im}${sync}</div>`}).join(""):"কোনো Attendance নেই"}catch(e){$("records").textContent="❌ "+e.message}};
 
-window.loadWorkerDashboard=async()=>{try{await authReady;const worker=$("dashWorker").value;const from=$("dashFrom").value,to=$("dashTo").value;if(!worker)return $("dashSummary").textContent="কর্মীর নাম নির্বাচন করুন।";if(!from||!to)return $("dashSummary").textContent="From Date ও To Date নির্বাচন করুন।";if(from>to)return $("dashSummary").textContent="❌ From Date, To Date-এর পরে হতে পারবে না।";const snap=await getDocs(collection(db,"attendance"));const byDate={};snap.forEach(d=>{const r=d.data();if(r.worker===worker&&r.date>=from&&r.date<=to)byDate[r.date]=r});const local=loadLocalAttendance();local.forEach(r=>{if(r.worker===worker&&r.date>=from&&r.date<=to&&!byDate[r.date])byDate[r.date]=r});let cur=new Date(from+"T00:00:00"),last=new Date(to+"T00:00:00"),present=0,absent=0,html="";while(cur<=last){const ds=cur.toISOString().slice(0,10),r=byDate[ds];if(r){present++;html+=`<div class="record" style="border-left-color:#2e7d32"><b>✅ PRESENT</b> — ${ds}<br>সময়: ${escA(r.time)}<br>ঠিকানা: ${escA(r.address)}</div>`}else{absent++;html+=`<div class="record" style="border-left-color:#c62828"><b>❌ ABSENT</b> — ${ds}<br>এই তারিখে কোনো Attendance পাওয়া যায়নি।</div>`}cur.setDate(cur.getDate()+1)}$("dashSummary").innerHTML=`<b>${escA(worker)}</b><br>মোট দিন: ${present+absent} &nbsp; | &nbsp; ✅ Present: ${present} &nbsp; | &nbsp; ❌ Absent: ${absent}`;$("dashRecords").innerHTML=html||"কোনো তথ্য নেই"}catch(e){$("dashSummary").textContent="Firebase এখন পাওয়া যাচ্ছে না। ফোনে Save থাকা Attendance Internet এলে আবার Sync হবে।";window.showFirebaseProblem?.("কর্মীর Dashboard-এর Firebase data এখন লোড করা যাচ্ছে না। Internet ঠিক হলে আবার চেষ্টা করুন।",e)}};
+window.loadWorkerDashboard=async()=>{try{await authReady;const worker=$("dashWorker").value;if(worker&&!workerCanUse(worker))return $("dashSummary").textContent=settingsFor(worker).password?'🔒 আগে Password দিয়ে Lock খুলুন।':'🔒 এই কর্মীকে Admin Lock করেছেন। Admin ছাড়া Unlock করা যাবে না.';const from=$("dashFrom").value,to=$("dashTo").value;if(!worker)return $("dashSummary").textContent="কর্মীর নাম নির্বাচন করুন।";if(!from||!to)return $("dashSummary").textContent="From Date ও To Date নির্বাচন করুন।";if(from>to)return $("dashSummary").textContent="❌ From Date, To Date-এর পরে হতে পারবে না।";const snap=await getDocs(collection(db,"attendance"));const byDate={};snap.forEach(d=>{const r=d.data();if(r.worker===worker&&r.date>=from&&r.date<=to)byDate[r.date]=r});let cur=new Date(from+"T00:00:00"),last=new Date(to+"T00:00:00"),present=0,absent=0,html="";while(cur<=last){const ds=cur.toISOString().slice(0,10),r=byDate[ds];if(r){present++;html+=`<div class="record" style="border-left-color:#2e7d32"><b>✅ PRESENT</b> — ${ds}<br>সময়: ${escA(r.time)}<br>ঠিকানা: ${escA(r.address)}</div>`}else{absent++;html+=`<div class="record" style="border-left-color:#c62828"><b>❌ ABSENT</b> — ${ds}<br>এই তারিখে কোনো Attendance পাওয়া যায়নি।</div>`}cur.setDate(cur.getDate()+1)}$("dashSummary").innerHTML=`<b>${worker}</b><br>মোট দিন: ${present+absent} &nbsp; | &nbsp; ✅ Present: ${present} &nbsp; | &nbsp; ❌ Absent: ${absent}`;$("dashRecords").innerHTML=html||"কোনো তথ্য নেই"}catch(e){$("dashSummary").textContent="❌ "+e.message}};
 
 
 // ===== Worker security + message controls (fixed V14) =====
@@ -1305,36 +1166,17 @@ window.saveWorkerAdminSetting=saveWorkerAdminSetting;
 function updateWorkerPickerButton(){const w=getSelectedWorker(),b=document.getElementById('workerPickerToggle');if(b){b.textContent=w?('👤 '+w+' ▾'):'👤 কর্মী নির্বাচন ▾';b.classList.toggle('worker-selected-unlocked',!!w&&workerCanUse(w));b.classList.toggle('worker-selected-locked',!!w&&!workerCanUse(w));}const d=document.getElementById('selectedWorkerDisplay');if(d){d.textContent=w?w:'কর্মীর নাম নির্বাচন করুন';d.classList.toggle('worker-selected-unlocked',!!w&&workerCanUse(w));d.classList.toggle('worker-selected-locked',!!w&&!workerCanUse(w));}}
 function updateSelectedWorkerTools(){const w=getSelectedWorker(),l=document.getElementById('selectedWorkerLock'),m=document.getElementById('selectedWorkerMsg');const locked=!!w&&!workerCanUse(w);if(l){l.textContent=locked?'🔒':'🔓';l.classList.toggle('locked',locked);l.disabled=!w}if(m)m.disabled=!w}
 window.toggleWorkerPicker=function(){document.getElementById('workerAccessList')?.classList.toggle('open')}
-window.selectWorkerSecure=async function(w){
+window.selectWorkerSecure=function(w){
   const sel=document.getElementById('worker');if(!sel)return;
+  const st=settingsFor(w);
+  // Selecting a worker must NOT re-lock an already unlocked worker. This was
+  // causing a correct password to appear ineffective when the worker name was
+  // tapped again after unlocking. Only a different worker starts locked.
   const wasSameWorker=sel.value===w;
-  sel.value=w;
-  /* Keep the hidden/native select and visible picker synchronized on Android. */
-  sel.setAttribute('data-selected-worker',w);
-  const display=document.getElementById('selectedWorkerDisplay');
-  if(display) display.textContent=w;
-  document.getElementById('workerAccessList')?.classList.remove('open');
-  // If this worker is protected and not already unlocked in this session,
-  // ask for the worker password immediately when the name is selected.
-  // An already-unlocked worker is never asked again.
-  if(workerProtectionOn(w) && workerUnlocked[w]!==true){
-    const st=settingsFor(w);
-    if(st.password && st.lockMode!=='admin'){
-      const entered=await uiPrompt('🔐 '+w+' এর Password দিন:','কর্মীর Password','🔐','',{password:true,placeholder:'Password লিখুন',okText:'খুলুন'});
-      if(entered===null){workerUnlocked[w]=false;updateWorkerPickerButton();updateSelectedWorkerTools();renderWorkerAccessList();return;}
-      const expected=String(st.password??'').trim();
-      const supplied=String(entered??'').trim();
-      if(!expected || supplied!==expected){workerUnlocked[w]=false;updateWorkerPickerButton();updateSelectedWorkerTools();renderWorkerAccessList();showAppNotice('Password সঠিক নয়। আবার চেষ্টা করুন।','Password ভুল','❌');return;}
-      workerUnlocked[w]=true;
-      const msg=document.getElementById('msg');if(msg){msg.className='success';msg.textContent='🔓 '+w+' Unlock হয়েছে।';}
-    } else if(adminOnlyLockOn(w)){
-      workerUnlocked[w]=false;
-      showAppNotice('🔒 '+w+'-কে Admin Lock করা আছে। Admin ছাড়া Unlock করা যাবে না।','Admin Lock','🔒');
-    }
-  } else if(!workerProtectionOn(w)){
-    workerUnlocked[w]=true;
+  if(!wasSameWorker || workerUnlocked[w]!==true){
+    workerUnlocked[w]=!(workerProtectionOn(w));
   }
-  renderWork(sel);updateWorkerPickerButton();updateSelectedWorkerTools();renderWorkerAccessList();updateWorkerDashboardMessageButton();
+  sel.value=w;renderWork(sel);document.getElementById('workerAccessList')?.classList.remove('open');updateWorkerPickerButton();updateSelectedWorkerTools();renderWorkerAccessList();
 }
 window.unlockWorker=async function(w){
   const st=settingsFor(w);
@@ -1343,7 +1185,7 @@ window.unlockWorker=async function(w){
   // A saved worker password is always the worker's unlock credential.
   // Legacy locked=true is ignored unless lockMode is explicitly 'admin'.
   if(st.password && st.lockMode!=='admin'){
-    const entered=await uiPrompt('🔐 '+w+' এর Password দিন:','কর্মীর Password','🔐','',{password:true,placeholder:'Password লিখুন',okText:'খুলুন'});
+    const entered=await uiPrompt('🔐 '+w+' এর Password দিন:','কর্মীর Password','🔐','',{password:true,placeholder:'Password লিখুন',okText:'Unlock'});
     if(entered===null)return;
     const expected=String(st.password??'').trim();
     const supplied=String(entered??'').trim();
@@ -1419,13 +1261,13 @@ function renderWorkerAccessList(){
      <button type="button" class="worker-option-action worker-msg-btn ${unread?'unread':''}" data-msg-worker="${escA(w)}" title="Password দিয়ে Message খুলুন">💬${unread?'<i class="mini-unread-dot"></i>':''}</button>
    </div>`
  }).join('');
- box.querySelectorAll('[data-select-worker]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();window.selectWorkerSecure(btn.getAttribute('data-select-worker')).then(()=>{try{renderWork();}catch(_){};try{window.dispatchEvent(new Event('vbdcp-worker-selected'));}catch(_){}})}));
+ box.querySelectorAll('[data-select-worker]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();window.selectWorkerSecure(btn.getAttribute('data-select-worker'))}));
  box.querySelectorAll('[data-lock-worker]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();window.unlockWorker(btn.getAttribute('data-lock-worker'))}));
  box.querySelectorAll('[data-msg-worker]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();window.openCurrentWorkerMessages(btn.getAttribute('data-msg-worker'))}));
  updateWorkerPickerButton(); updateSelectedWorkerTools(); updateWorkerDashboardMessageButton();
  const composeBtn=document.querySelector('.worker-message-compose button[onclick="sendWorkerMessage()"]'); if(composeBtn&&messageMode==='worker'&&messageConversationWorker){const ok=workerCanUse(messageConversationWorker);composeBtn.disabled=!ok;composeBtn.style.opacity=ok?'1':'.55';}
 }
-window.handleDashWorkerChange=function(w){/* Worker Dashboard is status-only; no worker message/password/lock is required here. */};
+window.handleDashWorkerChange=function(w){if(w){workerUnlocked[w]=!workerProtectionOn(w);}updateWorkerDashboardMessageButton();};
 function updateWorkerDashboardMessageButton(){
  const btn=document.getElementById('workerDashboardMessageBtn'),badge=document.getElementById('workerMessageBadge');if(!btn||!badge)return;
  const w=getSelectedWorker()||document.getElementById('dashWorker')?.value||'';const unread=!!w&&unreadFor(w)&&workerCanUse(w);btn.classList.toggle('unread',unread);badge.classList.toggle('hidden',!unread);
@@ -1541,7 +1383,7 @@ window.adminMessageWorker=function(w){
  const lab=document.getElementById('wmRecipientLabel');if(lab)lab.textContent=w;
  const sel=document.getElementById('wmTo');
  if(sel){
-   sel.innerHTML=(window.WORKERS||[]).map(x=>`<option value="${escA(x)}">${escA(x)}</option>`).join('');
+   sel.innerHTML=WORKERS.map(x=>`<option value="${escA(x)}">${escA(x)}</option>`).join('');
    sel.value=w;
    sel.onchange=()=>window.changeAdminMessageRecipient(sel.value);
  }
@@ -1660,7 +1502,7 @@ window.startWorkerMessageListener=function(){
 // Admin row message styling and unread indication.
 function renderAdminWorkerSettings(){
  const box=document.getElementById('adminWorkerSettingsList');if(!box)return;
- box.innerHTML=(window.WORKERS||[]).map(w=>{const st=settingsFor(w),unread=unreadForAdmin(w);return `<div class="admin-worker-row ${unread?'message-unread':''}"><b>${escA(w)}</b><input id="wp-${escA(w)}" type="password" value="${escA(st.password)}" placeholder="Password"><label><input id="wl-${escA(w)}" type="checkbox" ${st.locked?'checked':''}> Lock</label><button type="button" class="worker-admin-save" data-worker="${escA(w)}" onclick="saveWorkerAdminSetting(decodeURIComponent('${encodeURIComponent(w)}'))">💾 Save</button><button type="button" class="worker-admin-msg-btn ${unread?'unread':''}" data-admin-message-worker="${escA(w)}">💬 ${unread?'NEW':'Message'}</button></div>`}).join('');
+ box.innerHTML=WORKERS.map(w=>{const st=settingsFor(w),unread=unreadForAdmin(w);return `<div class="admin-worker-row ${unread?'message-unread':''}"><b>${escA(w)}</b><input id="wp-${escA(w)}" type="password" value="${escA(st.password)}" placeholder="Password"><label><input id="wl-${escA(w)}" type="checkbox" ${st.locked?'checked':''}> Lock</label><button type="button" class="worker-admin-save" data-worker="${escA(w)}" onclick="saveWorkerAdminSetting(decodeURIComponent('${encodeURIComponent(w)}'))">💾 Save</button><button type="button" class="worker-admin-msg-btn ${unread?'unread':''}" data-admin-message-worker="${escA(w)}">💬 ${unread?'NEW':'Message'}</button></div>`}).join('');
  // Use a real touch/click listener as well as the normal button semantics.
  // This is more reliable on Android content:// pages than relying only on
  // an inline onclick inside dynamically generated HTML.
@@ -1678,7 +1520,7 @@ function renderAdminWorkerSettings(){
      window.adminMessageWorker(w);
    },{passive:false});
  });
- const title=document.getElementById('adminMessageSectionTitle');if(title)title.classList.toggle('has-new',(window.WORKERS||[]).some(w=>unreadForAdmin(w)));
+ const title=document.getElementById('adminMessageSectionTitle');if(title)title.classList.toggle('has-new',WORKERS.some(w=>unreadForAdmin(w)));
 };
 window.addEventListener('DOMContentLoaded',()=>{
   setTimeout(()=>{
@@ -1730,24 +1572,6 @@ window.showAppNotice=function(message,title='নোটিশ',icon='ℹ️'){
  b.classList.add('show');
 };
 window.closeAppNotice=function(){document.getElementById('appNoticeBackdrop')?.classList.remove('show')};
-let __firebaseProblemShown=false;
-window.showFirebaseProblem=function(message,error){
-  console.warn('Firebase problem:',error);
-  if(__firebaseProblemShown)return;
-  __firebaseProblemShown=true;
-  window.showAppNotice(message,'সংযোগ সমস্যা','☁️');
-  setTimeout(()=>{__firebaseProblemShown=false},12000);
-};
-function updateConnectionStatus(force){
-  const el=document.getElementById('connectionStatus');if(!el)return;
-  const online=navigator.onLine;
-  if(!online){el.className='connection-status show offline';el.textContent='📴 Internet সংযোগ নেই — Attendance ফোনে Save থাকবে। Internet এলে Firebase-এ Sync হবে।';return;}
-  if(force==='firebase-ok'){el.className='connection-status show online';el.textContent='☁️ Internet/Firebase সংযোগ ঠিক আছে।';setTimeout(()=>{if(el.classList.contains('online'))el.className='connection-status'},3500);return;}
-  el.className='connection-status';
-}
-window.addEventListener('offline',()=>{updateConnectionStatus();__firebaseProblemShown=false;});
-window.addEventListener('online',()=>{updateConnectionStatus('firebase-ok');setTimeout(()=>syncAllPendingData?.().catch(()=>{}),700);});
-updateConnectionStatus();
 window.alert=(message)=>{
  const text=String(message||'');
  const icon=text.includes('❌')?'❌':(text.includes('🔒')?'🔒':(text.includes('⚠️')?'⚠️':'ℹ️'));
@@ -1755,46 +1579,16 @@ window.alert=(message)=>{
  window.showAppNotice(text,title,icon);
 };
 </script>
-
-<style id="vbdcp-gps-summary-and-connection">
-.connection-status{display:none;max-width:850px;margin:7px auto 0;padding:7px 11px;border-radius:10px;font-size:11px;font-weight:800;line-height:1.35;box-sizing:border-box;text-align:center;background:linear-gradient(145deg,#172b3a,#081018);border:1px solid #35566b;color:#dcecf5;box-shadow:0 4px 12px #000}.connection-status.show{display:block}.connection-status.offline{border-color:#8a6a2c;color:#ffe3a3;background:linear-gradient(145deg,#2b2110,#120e06)}.connection-status.online{border-color:#2c7f4b;color:#b9f4c9;background:linear-gradient(145deg,#11261a,#071008)}
-#adminTable .admin-gps-cell{min-width:205px;width:28%;text-align:left!important;font-size:9px!important;font-weight:600!important;line-height:1.25!important;white-space:normal!important;vertical-align:top!important}
-#adminTable .admin-gps-line{display:block;margin:0 0 2px;text-align:left!important;color:#f2f2f2!important}
-#adminTable .admin-gps-label{font-weight:900!important;color:#8fe8ff!important}
-#adminTable .admin-gps-coord{display:block;color:#d8e3ea!important;font-size:8.5px!important;font-weight:600!important;letter-spacing:.1px;margin-bottom:2px;text-align:left!important}
-#adminTable .admin-gps-distance{display:block;color:#9ff0b4!important;font-size:9px!important;font-weight:900!important;text-align:left!important}
-#adminTable .admin-note-cell{min-width:115px!important;width:17%!important;max-width:260px!important;text-align:left!important;white-space:normal!important;word-break:break-word!important;color:#f2f2f2!important;font-weight:500!important;font-size:10px!important;line-height:1.25!important}
-#adminTable .admin-note-cell.absent-note{color:#ff4d4d!important;font-weight:900!important;font-size:18px!important;text-align:center!important}
-@media(max-width:600px){#adminTable .admin-gps-cell{min-width:185px!important;width:43%!important;font-size:8.5px!important}#adminTable .admin-gps-coord{font-size:8px!important}#adminTable .admin-note-cell{min-width:100px!important;width:24%!important;font-size:9px!important;max-width:220px!important}}
-</style>
-<style id="vbdcp-final-request-fixes">
-.work-start-circle.started{background:linear-gradient(145deg,#22c55e,#15803d)!important;border-color:#16a34a!important;color:#fff!important;box-shadow:0 0 0 3px rgba(34,197,94,.18),inset 2px 2px 5px rgba(134,239,172,.35),0 5px 12px rgba(20,83,45,.8)!important}
-.work-start-card.gps-verified .work-start-status{background:#eaf8ee!important;color:#167a36!important;border-color:#9bd5aa!important}
-@media(max-width:600px){#adminTable{font-size:11px!important}#adminTable th,#adminTable td{padding:4px 3px!important}#adminTable .admin-action-btn{padding:3px 5px!important;font-size:10px!important}}
-</style>
-<style id="prosen-reset-style">
-.prosen-admin-card{margin:0 0 14px;padding:14px;border:1px solid #6b4f55;border-radius:16px;background:linear-gradient(145deg,#24171a,#0b0c10);box-shadow:0 8px 20px #000,inset 1px 1px 5px #ffffff10}.prosen-admin-card h3{text-align:center;margin:0 0 8px}.prosen-actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}.prosen-actions button{margin:0!important;min-height:46px}.prosen-diagnostic{margin-top:9px;display:grid;gap:6px}.prosen-test{padding:9px 11px;border-radius:10px;background:#101b23;border:1px solid #355466;font-weight:800}.prosen-test.ok{border-color:#2fa66a;background:#0c2118}.prosen-test.bad{border-color:#b64a4a;background:#2a1111}.prosen-test.wait{border-color:#8a7336;background:#241e0d}@media(max-width:600px){.prosen-actions{grid-template-columns:1fr}.prosen-actions button{width:100%!important}}
-</style>
 <section id="adminPanel" class="hidden">
   <h2>🔐 Admin Dashboard</h2>
   <div class="admin-pin-note">Attendance records দেখতে Admin PIN দিন</div>
   <div style="display:flex;flex-direction:column;align-items:center;gap:8px;max-width:360px;margin:0 auto 14px"><input id="adminPin" type="password" inputmode="numeric" placeholder="Admin PIN" style="width:100%;box-sizing:border-box;text-align:center"><button type="button" onclick="openAdmin()" style="width:100%;margin:0">🔓 Admin Login</button></div>
   <div id="adminMsg"></div>
   <div id="adminArea" style="display:none">
-    <div class="prosen-admin-card">
-      <h3>🛡️ System Reset & Firebase Test</h3>
-      <div class="admin-note">এই অংশ শুধু Admin Login-এর পরে দেখা যাবে। <b>prosen</b> হলো এই ফোনের local-first storage। Internet থাকলে Firebase-এর সাথে sync/recovery হবে।</div>
-      <div class="prosen-actions">
-        <button type="button" class="secondary" onclick="runFirebaseDiagnostic()">🧪 Firebase Diagnostic</button>
-        <button type="button" class="secondary" onclick="recoverProsenFromFirebase()">☁️ Firebase → prosen Recovery</button>
-        <button type="button" class="danger-btn" onclick="openAdminReset()">🗑️ Admin Reset — সব App Data Delete</button>
-      </div>
-      <div id="prosenStatus" class="status"></div>
-      <div id="prosenDiagnostic" class="prosen-diagnostic"></div>
-    </div>
+    <input id="adminSearch" type="text" placeholder="কর্মীর নাম/তারিখ দিয়ে খুঁজুন" oninput="renderAdmin()">
     <div class="admin-worker-settings">
       <h3 style="text-align:center;margin-top:0">🔐 কর্মী Password / Lock / Message</h3>
-      <div id="adminMessageSectionTitle" class="message-section-title">💬 কর্মী Message Center — নতুন মেসেজ এলে লাল হবে</div>
+      <div id="adminMessageSectionTitle" class="message-section-title">💬 কর্মী Message Center — নতুন মেসেজ এলে লাল হবে</div><div class="admin-note">Password সেট করুন, Lock চালু/বন্ধ করুন এবং প্রতিটি কর্মীকে এখান থেকে Message করুন। Lock চালু থাকলে এটি Admin-only Lock—কর্মীর Password থাকলেও তিনি খুলতে পারবেন না। Lock বন্ধ থাকলে Password থাকলে কর্মী নিজের Password দিয়ে খুলতে পারবেন; Password না থাকলে সরাসরি ব্যবহার করতে পারবেন। কোনো কর্মীর নতুন Message থাকলে তার Message বক্স লাল দেখাবে; খুললে Seen হবে।</div>
       <div id="adminWorkerSettingsList"></div><div id="workerAdminSaveStatus" class="status" style="margin-top:8px"></div><div class="whatsapp-admin-card">
       <h3 style="text-align:center;margin:0 0 8px">📲 WhatsApp Group সেটিং</h3>
       <div class="admin-note">এখানে একটি WhatsApp Group link Save করুন। ক্যামেরা থেকে ছবি পাঠানোর সময় এই Group-এর shortcut দেখাবে।</div>
@@ -1840,7 +1634,7 @@ window.alert=(message)=>{
     <div id="adminCount"></div>
     <div style="overflow:auto">
       <table id="adminTable">
-        <thead><tr><th>তারিখ</th><th>সময়</th><th>কর্মী</th><th>শুরু সময়</th><th>কাজের ঠিকানা / GPS</th><th>মন্তব্য</th><th>ছবি</th><th>অ্যাকশন</th></tr></thead>
+        <thead><tr><th>তারিখ</th><th>সময়</th><th>কর্মী</th><th>শুরু সময়</th><th>ঠিকানা</th><th>মন্তব্য</th><th>ছবি</th><th>অ্যাকশন</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -1861,80 +1655,6 @@ window.alert=(message)=>{
     </div>
   </div>
 </section>
-<script>
-// PROSEN LOCAL-FIRST STORE + ADMIN RESET + FIREBASE DIAGNOSTIC (v2)
-(function(){
-  const DB_NAME='prosen'; const DB_VER=1; const STORE='kv';
-  const APP_COLLECTIONS=['attendance','workerSettings','workerMessages','workLocations'];
-  const APP_LOCAL_KEYS=['vct_work_sessions_v2','vbdcp_workLocations','vbdcp_workerSettings','vbdcp_messages','vbdcp_message_ops','vbdcp_message_tombstones','vbdcp_admin_overrides','vbdcp_attendance_local','vbdcp_whatsapp','vbdcp_wa_group','vbdcp_selected_location'];
-  let dbp=null;
-  function status(t,kind){const e=document.getElementById('prosenStatus');if(e){e.className='status '+(kind||'');e.textContent=t}}
-  function diag(label,ok,detail){const e=document.getElementById('prosenDiagnostic');if(!e)return;const d=document.createElement('div');d.className='prosen-test '+(ok===null?'wait':ok?'ok':'bad');d.textContent=(ok===null?'⏳':ok?'✅':'❌')+' '+label+(detail?' — '+detail:'');e.appendChild(d)}
-  function openDB(){if(dbp)return dbp;dbp=new Promise((res,rej)=>{const r=indexedDB.open(DB_NAME,DB_VER);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(STORE))r.result.createObjectStore(STORE)};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)});return dbp}
-  async function idbSet(key,value){const db=await openDB();return new Promise((res,rej)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).put(value,key);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)})}
-  async function idbGet(key){const db=await openDB();return new Promise((res,rej)=>{const tx=db.transaction(STORE,'readonly'),q=tx.objectStore(STORE).get(key);q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})}
-  async function idbClear(){const db=await openDB();return new Promise((res,rej)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).clear();tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)})}
-  async function cloudRead(col){await window.authReady;const snap=await window.getDocs(window.collection(window.db,col));return snap.docs.map(d=>({id:d.id,...d.data()}))}
-  async function cacheCollection(col,rows){await idbSet('collection:'+col,rows)}
-  async function recover(){
-    await window.authReady;
-    for(const c of APP_COLLECTIONS){const rows=await cloudRead(c);await cacheCollection(c,rows)}
-    await idbSet('lastRecoveryAt',new Date().toISOString());
-    // Also refresh existing app modules where available.
-    try{await loadWorkerSecurity()}catch(e){}
-    try{await loadWorkerMessages()}catch(e){}
-    try{await loadLocationConfigs()}catch(e){}
-    try{await loadAdminRecords()}catch(e){}
-    return true;
-  }
-  window.recoverProsenFromFirebase=async function(){
-    if(!window.__vbdcpAdminSession){uiAlert('আগে Admin Login করুন।','Admin','🔒');return}
-    try{status('☁️ Firebase থেকে prosen-এ data recovery হচ্ছে…','status');await recover();status('✅ Firebase → prosen Recovery সম্পন্ন হয়েছে।','success');renderAdmin?.()}catch(e){status('❌ Recovery হয়নি: '+(e?.message||e),'error')}
-  };
-  window.runFirebaseDiagnostic=async function(){
-    if(!window.__vbdcpAdminSession){uiAlert('আগে Admin Login করুন।','Admin','🔒');return}
-    const box=document.getElementById('prosenDiagnostic');if(box)box.innerHTML='';
-    diag('Auth',null,'checking');
-    try{await window.authReady;diag('Auth',true,'OK')}catch(e){diag('Auth',false,e.message);return}
-    try{const counts=[];for(const c of APP_COLLECTIONS){const snap=await window.getDocs(window.collection(window.db,c));counts.push(c+': '+snap.size)}diag('App Data Check',true,counts.join(' | '))}catch(e){diag('App Data Check',false,e.message)}
-    const id='__prosen_diag_'+Date.now(); const ref=window.doc(window.db,'attendance',id);
-    try{await window.setDoc(ref,{clientId:id,worker:'__PROSEN_DIAGNOSTIC__',date:'2099-01-01',time:'00:00:00',createdAt:new Date().toISOString(),diagnostic:true});diag('WRITE',true,'OK')}catch(e){diag('WRITE',false,e.message);return}
-    try{const snap=await window.getDocs(window.collection(window.db,'attendance'));diag('READ',true,'OK ('+snap.size+' docs)')}catch(e){diag('READ',false,e.message)}
-    try{await window.deleteDoc(ref);diag('DELETE',true,'OK')}catch(e){diag('DELETE',false,e.message)}
-    try{await idbSet('diagnosticAt',new Date().toISOString());diag('prosen IndexedDB',true,'OK')}catch(e){diag('prosen IndexedDB',false,e.message)}
-  };
-  async function deleteCollectionAll(col){const rows=await cloudRead(col);for(const r of rows){await window.deleteDoc(window.doc(window.db,col,r.id))}return rows.length}
-  async function resetLocal(){await idbClear();for(const k of APP_LOCAL_KEYS){try{localStorage.removeItem(k)}catch(e){}}}
-  const DEFAULT_RESET_PASSWORD='9641335519';
-  window.openAdminReset=async function(){
-    if(!window.__vbdcpAdminSession){uiAlert('আগে Admin Login করুন।','Admin','🔒');return}
-    const p1=await uiPrompt('Admin Reset — সব App Data Delete করতে Default Reset Password দিন।\n\nএই password Firebase-এ Save হবে না এবং App-এ দেখানো হবে না।','Admin Reset — Password','🔐','',{password:true,okText:'পরবর্তী'});
-    if(p1===null)return;
-    if(String(p1)!==DEFAULT_RESET_PASSWORD){uiAlert('Reset Password সঠিক নয়। Default Reset Password দিন।','Reset','❌');return}
-    const p2=await uiPrompt('নিরাপত্তার জন্য একই Default Reset Password আবার লিখুন।','Admin Reset — Confirm Password','🔐','',{password:true,okText:'পরবর্তী'});
-    if(p2===null)return;
-    if(String(p2)!==DEFAULT_RESET_PASSWORD){uiAlert('Confirm Password সঠিক নয়। Reset বাতিল হয়েছে।','Reset','❌');return}
-    const ok=await uiConfirm('⚠️ FINAL CONFIRMATION\n\nAttendance, Worker Settings, Worker Messages এবং কাজের ঠিকানার সব App Data Firebase থেকে Delete হবে। এই ফোনের prosen local store-ও খালি হবে।\n\nএই কাজের পর App নতুন করে শুরু হবে।','FINAL Admin Reset','🗑️');
-    if(!ok)return;
-    try{
-      status('🗑️ Reset চলছে… আগে Firebase data delete হচ্ছে।','status');
-      await window.authReady;
-      let total=0;for(const c of APP_COLLECTIONS){total+=await deleteCollectionAll(c)}
-      await resetLocal();
-      // Keep this browser's app shell, Firebase configuration and Admin PIN; only app data is cleared.
-      window.__vbdcpAdminSession=false;
-      const area=document.getElementById('adminArea');if(area)area.style.display='none';
-      status('','');
-      uiAlert('✅ Admin Reset সম্পন্ন।\nFirebase থেকে '+total+'টি App document এবং ফোনের prosen local data মুছে গেছে।\nএখন App নতুন data দিয়ে শুরু হবে।','Reset Complete','✅');
-      setTimeout(()=>location.reload(),700);
-    }catch(e){status('❌ Reset অসম্পূর্ণ: '+(e?.message||e),'error');uiAlert('Reset সম্পূর্ণ হয়নি। Firebase-এর কিছু data থাকতে পারে। আবার Diagnostic চালান।\n\n'+(e?.message||e),'Reset Error','❌')}
-  };
-  // Background recovery: Firebase is authoritative when online; prosen is the local mirror.
-  window.prosenSyncAll=async function(){try{await window.authReady;await recover()}catch(e){console.warn('prosen sync pending',e)}};
-  window.addEventListener('online',()=>setTimeout(()=>window.prosenSyncAll(),500));
-  document.addEventListener('DOMContentLoaded',()=>setTimeout(()=>window.prosenSyncAll(),1800));
-})();
-</script>
 <script>
 let adminRecords=[];
 const ADMIN_PIN="9641";
@@ -2072,7 +1792,7 @@ function renderLocationPicker(){
     ? (villages.length?villages.map(v=>{
         const overdue=isVillageOverdue(v);
         const c=overdue?"#ef4444":v.color;
-        return `<button type="button" data-village="${encodeURIComponent(v.name)}" class="village-choice ${selectedVillage===v.name?'selected-location selected-village-option':''} ${overdue?'village-overdue':''}" style="border-color:${c}!important;box-shadow:0 0 10px ${c}55,inset 2px 2px 5px #ffffff10">
+        return `<button type="button" data-village="${encodeURIComponent(v.name)}" class="village-choice ${selectedVillage===v.name?'selected-location':''} ${overdue?'village-overdue':''}" style="border-color:${c}!important;box-shadow:0 0 10px ${c}55,inset 2px 2px 5px #ffffff10">
           <span>${escA(v.name)}</span>${v.message?`<span class="village-message">📌 ${escA(v.message)}</span>`:""}
         </button>`;
       }).join(""):'<div class="location-empty">এই সংসদের কোনো গ্রাম নেই।</div>')
@@ -2086,7 +1806,7 @@ function renderLocationPicker(){
     });
   });
 
-  if(addr)addr.value=selectedLocationNumber&&selectedVillage?`${selectedLocationNumber}, ${selectedVillage}`:"";
+  if(addr)addr.value=selectedLocationNumber&&selectedVillage?`${selectedLocationNumber}, ${selectedVillage}, গ্রাম, সিলেট`:"";
 }
 window.selectLocationNumber=function(n){
   selectedLocationNumber=String(n);selectedVillage="";parliamentMenuOpen=false;villageMenuOpen=false;
@@ -2235,7 +1955,6 @@ window.openAdmin=()=>{
   const msg=document.getElementById("adminMsg");
   if(pin!==ADMIN_PIN){if(msg){msg.className="error";msg.textContent="❌ ভুল Admin PIN";}return;}
   if(msg){msg.className="success";msg.textContent="✅ লগইন সফল হয়েছে";}
-  window.__vbdcpAdminSession=true;
   const area=document.getElementById("adminArea");
   if(area) area.style.display="block";
   // Render local data immediately so Admin tools work even if Firebase is unavailable.
@@ -2281,7 +2000,7 @@ window.loadAdminRecords=async()=>{
   try{
     await window.authReady;
     const q=await window.getDocs(window.collection(window.db,"attendance"));
-    adminRecords=q.docs.map(d=>({id:d.id,...d.data()})).filter(r=>!r.deleted);
+    adminRecords=q.docs.map(d=>({id:d.id,...d.data()}));
     adminRecords.sort((a,b)=>String(b.date||"").localeCompare(String(a.date||""))||String(b.time||"").localeCompare(String(a.time||"")));
     const dates=adminRecords.map(r=>r.date).filter(Boolean).sort();
     const today=adminTodayKey();
@@ -2291,7 +2010,7 @@ window.loadAdminRecords=async()=>{
     const month=document.getElementById("adminDeleteMonth");
     if(month&&!month.value)month.value=today.slice(0,7);
     renderAdmin();
-  }catch(e){document.getElementById("adminMsg").className="status";document.getElementById("adminMsg").textContent="Firebase এখন পাওয়া যাচ্ছে না। Local data থাকলে সেটি ব্যবহার করুন; Internet ঠিক হলে আবার চেষ্টা করুন।";window.showFirebaseProblem?.("Admin Attendance Summary-এর Firebase data এখন লোড করা যাচ্ছে না। Internet ঠিক হলে আবার চেষ্টা করুন।",e)}
+  }catch(e){document.getElementById("adminMsg").className="error";document.getElementById("adminMsg").textContent="❌ "+e.message}
 };
 window.renderAdmin=()=>{
   const term=(document.getElementById("adminSearch")?.value||"").toLowerCase();
@@ -2299,7 +2018,7 @@ window.renderAdmin=()=>{
   const to=document.getElementById("adminTo")?.value||"";
   const selectedWorker=getAdminWorkerFilter();
   const selectedStatus=document.getElementById("adminStatusFilter")?.value||"__ALL__";
-  const workers=(window.WORKERS||[]).slice();
+  const workers=WORKERS.slice();
   const byKey=new Map();
   adminRecords.forEach(r=>{if(r.worker&&r.date)byKey.set(`${r.worker}__${r.date}`,r)});
   let all=[];
@@ -2319,16 +2038,9 @@ window.renderAdmin=()=>{
     const status=r.isAbsent?'❌ ABSENT':'✅ PRESENT';
     const checkbox=r.isAbsent?'—':`<input type="checkbox" class="admin-row-check" data-id="${escA(r.id)}" onchange="toggleAdminRow(this)">`;
     const action=r.isAbsent
-      ? `<div class="admin-action-stack"><button type="button" class="secondary" onclick="editAbsentAttendance('${encodeURIComponent(r.worker)}','${encodeURIComponent(r.date)}')">✏️ Edit</button><button type="button" class="danger-btn" onclick="showAbsentDeleteInfo('${encodeURIComponent(r.worker)}','${encodeURIComponent(r.date)}')">🗑️ Delete</button></div>`
+      ? `<div class="admin-action-stack"><button type="button" class="secondary" onclick="editAbsentAttendance('${encodeURIComponent(r.worker)}','${encodeURIComponent(r.date)}')">✏️ Edit / Mark Present</button><button type="button" class="danger-btn" onclick="showAbsentDeleteInfo('${encodeURIComponent(r.worker)}','${encodeURIComponent(r.date)}')">🗑️ Delete</button></div><div class="admin-absent-note">Absent আলাদা record নয়; Edit করলে এই তারিখে নতুন Attendance record তৈরি হবে।</div>`
       : `<div class="admin-action-stack"><button type="button" class="secondary" onclick="editAttendance('${encodeURIComponent(r.id)}')">✏️ Edit</button><button type="button" class="danger-btn" onclick="deleteAttendance('${encodeURIComponent(r.id)}')">🗑️ Delete</button></div>`;
-    const noteCell=r.isAbsent?'<span class="absent-note">✕</span>':escA(r.note||'—');
-    const startName=escA(r.startPlaceName||r.startVillage||'GPS এলাকা');
-    const submitName=escA(r.submitPlaceName||r.submitVillage||'GPS এলাকা');
-    const startCoord=(r.startLatitude!=null&&r.startLongitude!=null)?`${Number(r.startLatitude).toFixed(6)}, ${Number(r.startLongitude).toFixed(6)}`:'—';
-    const submitCoord=(r.latitude!=null&&r.longitude!=null)?`${Number(r.latitude).toFixed(6)}, ${Number(r.longitude).toFixed(6)}`:'—';
-    const km=r.locationDistanceKm!=null?Number(r.locationDistanceKm).toFixed(2):(r.locationDistanceMeters!=null?(Number(r.locationDistanceMeters)/1000).toFixed(2):'—');
-    const gpsCell=r.isAbsent?escA(r.address||'—'):`<span class="admin-gps-line"><span class="admin-gps-label">Start:</span> ${startName}</span><span class="admin-gps-coord">${startCoord}</span><span class="admin-gps-line"><span class="admin-gps-label">Submit:</span> ${submitName}</span><span class="admin-gps-coord">${submitCoord}</span><span class="admin-gps-distance">দূরত্ব: ${km} km</span><span style="display:block;margin-top:2px;color:#aebdc7;font-size:8px">${escA(r.address||'')}</span>`;
-    return `<tr data-admin-row-id="${r.isAbsent?'':escA(r.id)}"><td class="admin-select-cell">${checkbox}</td><td>${status}</td><td>${escA(r.date)}</td><td>${escA(r.time)}</td><td>${escA(r.worker)}</td><td>${escA(r.workStartTime||"—")}</td><td class="admin-gps-cell">${gpsCell}</td><td class="admin-note-cell ${r.isAbsent?'absent-note':''}">${noteCell}</td><td>${r.photoData?`<img src="${r.photoData}" alt="photo">`:"—"}</td><td>${action}</td></tr>`;
+    return `<tr data-admin-row-id="${r.isAbsent?'':escA(r.id)}"><td class="admin-select-cell">${checkbox}</td><td>${status}</td><td>${escA(r.date)}</td><td>${escA(r.time)}</td><td>${escA(r.worker)}</td><td>${escA(r.workStartTime||"—")}</td><td>${escA(r.address)}</td><td>${escA(r.note)}</td><td>${r.photoData?`<img src="${r.photoData}" alt="photo">`:"—"}</td><td>${action}</td></tr>`;
   }).join("")||'<tr><td colspan="10">কোনো তথ্য নেই</td></tr>';
   const selectAll=document.getElementById("adminSelectAll");
   if(selectAll)selectAll.onchange=()=>{document.querySelectorAll(".admin-row-check").forEach(c=>{c.checked=selectAll.checked;toggleAdminRow(c)});};
@@ -2409,19 +2121,12 @@ window.exportAdminCSV=()=>{
 </script>
 
 <script>
-/* SAFE START BUTTON UI: prominent oval button; green only after verified GPS. */
+/* SAFE START BUTTON UI: Green is shown only after verified GPS exists. */
 (function(){
   const KEY="vct_work_sessions_v2";
   const el=id=>document.getElementById(id);
   function read(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){return {}}}
-  function worker(){
-    const d=el("selectedWorkerDisplay");
-    const n=String(d?.textContent||"").trim();
-    if(n && n!=="কর্মীর নাম নির্বাচন করুন" && Array.isArray(window.WORKERS) && window.WORKERS.includes(n)) return n;
-    const s=el("worker");
-    if(s && s.options[s.selectedIndex] && s.options[s.selectedIndex].value) return s.options[s.selectedIndex].value;
-    return "";
-  }
+  function worker(){const s=el("worker");return s&&s.options[s.selectedIndex]?s.options[s.selectedIndex].value:""}
   function todayKey(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
   function time(iso){try{return new Date(iso).toLocaleTimeString("en-IN",{hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})}catch(e){return ""}}
   function draw(){
@@ -2429,18 +2134,10 @@ window.exportAdminCSV=()=>{
     const w=worker(),q=w?read()[w]:null;
     const valid=!!(q&&q.startDate===todayKey()&&q.gpsVerified===true&&q.startedAt&&q.startLatitude!=null&&q.startLongitude!=null);
     if(!w){box.innerHTML='<div class="work-start-empty">কর্মীর নাম নির্বাচন করুন। তারপর গোল বাটনে চাপুন। <b>GPS ছাড়া কাজ শুরু হবে না।</b></div>';return;}
-    box.innerHTML='<div class="work-start-single"><div class="work-start-single-text">'+(valid?'🟢 কাজ শুরু হয়েছে<br><span class="work-start-time">Start: '+time(q.startedAt)+'</span><br><small>📍 GPS Verified</small>':'<b>'+w+'</b><br>গোল Start বাটনে চাপুন — GPS সফল হলে Green হবে')+'</div><button type="button" class="work-start-circle '+(valid?'started':'')+'" id="fallbackStartBtn" aria-label="GPS দিয়ে কাজ শুরু">'+(valid?'✓':'▶')+'</button></div>';
-    const b=el("fallbackStartBtn");
-    if(b && !valid) b.onclick=()=>{if(typeof window.startSelectedWork==='function')window.startSelectedWork();};
+    box.innerHTML='<div class="work-start-single"><div class="work-start-single-text">'+(valid?'🟢 কাজ শুরু হয়েছে<br><span class="work-start-time">Start: '+time(q.startedAt)+'</span><br><small>📍 GPS Verified</small>':'<b>'+w+'</b><br>গোল বাটনে চাপুন — আগে GPS নেওয়া হবে')+'</div><button type="button" class="work-start-circle '+(valid?'started':'')+'" id="fallbackStartBtn">'+(valid?'✓':'▶')+'</button></div>';
+    const b=el("fallbackStartBtn");if(b&&!valid)b.onclick=()=>{if(typeof window.startSelectedWork==='function')window.startSelectedWork();};
   }
-  function boot(){
-    const s=el("worker");
-    if(s)s.addEventListener("change",draw);
-    const d=el("selectedWorkerDisplay");
-    if(d)new MutationObserver(draw).observe(d,{childList:true,characterData:true,subtree:true});
-    window.addEventListener('vbdcp-worker-selected',draw);
-    draw();setTimeout(draw,100);setTimeout(draw,500);setTimeout(draw,1000);
-  }
+  function boot(){const s=el("worker");if(!s)return;s.addEventListener("change",draw);draw();setTimeout(draw,100);setTimeout(draw,500);setTimeout(draw,1000);}
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",boot);else boot();
 })();
 </script>
@@ -2468,11 +2165,6 @@ window.exportAdminCSV=()=>{
 </script>
 
 <style id="vbdcp-final-ui-fix">
-/* Restore prominent oval GPS Start button. Green only after verified GPS. */
-.work-start-single{align-items:center!important;min-height:82px!important;padding:10px 14px!important}
-.work-start-circle{width:92px!important;height:64px!important;min-width:92px!important;flex:0 0 92px!important;border-radius:50%!important;font-size:28px!important}
-.work-start-circle.started{background:linear-gradient(145deg,#39e75f,#0b7f2d)!important;border-color:#55ff77!important;box-shadow:0 0 0 4px #25d95755,0 0 20px #1de64d88,inset 3px 3px 7px #aaffb555,inset -4px -4px 8px #064a1a,0 7px 16px #000!important}
-.work-start-gps-status{margin-top:8px!important;padding:8px 10px!important;border-radius:10px!important;background:linear-gradient(145deg,#171717,#080808)!important;border:1px solid #333!important;color:#eee!important;font-size:13px!important;line-height:1.45!important}
 /* Final visual/layout refinement */
 .attendance-card{
   position:relative!important;
@@ -2825,9 +2517,9 @@ button.touch-active,.menu3 button.touch-active,select.touch-active,input.touch-a
   let resolver=null, activeType='alert';
   function close(value){backdrop.classList.remove('open');backdrop.setAttribute('aria-hidden','true');document.body.style.overflow='';const r=resolver;resolver=null;if(r)r(value)}
   function openDialog(message,opts={}){
+    if(resolver) close(null);
     activeType=opts.type||'alert'; title.textContent=opts.title||'বার্তা'; icon.textContent=opts.icon||'ℹ️'; body.textContent=String(message??'');
     inputWrap.style.display=activeType==='prompt'?'block':'none'; input.value=opts.value??''; input.type=opts.password?'password':'text'; input.placeholder=opts.placeholder||'';
-    input.autocomplete=opts.password?'new-password':'off';
     actions.innerHTML='';
     if(activeType!=='alert'){
       const cancel=document.createElement('button'); cancel.type='button'; cancel.className='app-dialog-cancel'; cancel.textContent='বাতিল'; cancel.onclick=()=>close(null); actions.appendChild(cancel);
@@ -2836,34 +2528,19 @@ button.touch-active,.menu3 button.touch-active,select.touch-active,input.touch-a
     backdrop.classList.add('open');backdrop.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
     requestAnimationFrame(()=>{if(activeType==='prompt')input.focus();else ok.focus()});
   }
-  function beginDialog(resolve, message, opts){
-    if(resolver) close(null);
-    resolver=resolve;
-    openDialog(message,opts);
-  }
-  window.uiAlert=function(message,titleText='বার্তা',iconText='ℹ️'){if(resolver) close(null);openDialog(message,{type:'alert',title:titleText,icon:iconText,okText:'ঠিক আছে'});return true};
-  window.uiConfirm=function(message,titleText='নিশ্চিত করুন',iconText='⚠️'){return new Promise(resolve=>{beginDialog(resolve,message,{type:'confirm',title:titleText,icon:iconText,okText:'নিশ্চিত করুন',danger:true})})};
-  window.uiPrompt=function(message,titleText='তথ্য দিন',iconText='✏️',value='',opts={}){return new Promise(resolve=>{beginDialog(resolve,message,{type:'prompt',title:titleText,icon:iconText,value,password:!!opts.password,placeholder:opts.placeholder||'',okText:opts.okText||'সংরক্ষণ করুন'})})};
+  window.uiAlert=function(message,titleText='বার্তা',iconText='ℹ️'){openDialog(message,{type:'alert',title:titleText,icon:iconText,okText:'ঠিক আছে'});return true};
+  window.uiConfirm=function(message,titleText='নিশ্চিত করুন',iconText='⚠️'){return new Promise(resolve=>{resolver=resolve;openDialog(message,{type:'confirm',title:titleText,icon:iconText,okText:'নিশ্চিত করুন',danger:true})})};
+  window.uiPrompt=function(message,titleText='তথ্য দিন',iconText='✏️',value='',opts={}){return new Promise(resolve=>{resolver=resolve;openDialog(message,{type:'prompt',title:titleText,icon:iconText,value,password:!!opts.password,placeholder:opts.placeholder||'',okText:opts.okText||'সংরক্ষণ করুন'})})};
   backdrop.addEventListener('click',e=>{if(e.target===backdrop){if(activeType==='alert')close(true);else close(null)}});
   document.addEventListener('keydown',e=>{if(!backdrop.classList.contains('open'))return;if(e.key==='Escape'){e.preventDefault();close(activeType==='alert'?true:null)}else if(e.key==='Enter'&&activeType==='prompt'&&document.activeElement===input){e.preventDefault();close(input.value)}});
 })();
 </script>
-<script id="v34-password-unlock-fix">window.__VBDCP_VERSION='v40-prosen-reset-diagnostic-v5-compact';</script>
+<script id="v34-password-unlock-fix">window.__VBDCP_VERSION='v35-password-unlock-and-message-delete-fix';</script>
 
 <script id="v36-password-delete-hardening">
 /* v36 hardening: password unlock must survive re-selection, and deleted messages
    must stay hidden even if a stale Firestore snapshot is emitted. */
 window.__VBDCP_VERSION='v38-password-unlock-legacy-migration';
-</script>
-<script id="vbdcp-sw-register">
-if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>{
-      reg.update().catch(()=>{});
-      setInterval(()=>reg.update().catch(()=>{}),300000);
-    }).catch(()=>{});
-  });
-}
 </script>
 </body>
 <style id="v19-lock-color-only-fix">
@@ -2980,11 +2657,16 @@ if('serviceWorker' in navigator){
 
 
 <script>
-/* V39: in-memory field camera + WhatsApp sharing. Photos are never written to localStorage/Firebase. */
+/* Direct-camera upgrade: no gallery/file picker. Worker + field cameras use getUserMedia. */
 (function(){
   const CAMERA_KEY='vbdcp_whatsapp_group_v1';
   let fieldPhotos=[];
   let cameraOpen=false;
+  let fieldStream=null;
+  let fieldFacing='environment';
+  let workerStream=null;
+  let workerFacing='user';
+  let workerPhotoBlob=null;
   function $(id){return document.getElementById(id)}
   function esc(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
   function getCfgs(){try{return typeof locationConfigs==='object'?locationConfigs:{};}catch(e){return {}}}
@@ -2999,92 +2681,135 @@ if('serviceWorker' in navigator){
     if(url && !/^https:\/\/chat\.whatsapp\.com\/[A-Za-z0-9_-]+/.test(url)){if(status){status.className='error';status.textContent='❌ সঠিক WhatsApp Group link দিন।';}return;}
     saveWALocal(url);
     try{await window.authReady; await window.setDoc(window.doc(window.db,'appSettings','whatsapp'),{groupLink:url,updatedAt:new Date().toISOString()},{merge:true}); if(status){status.className='success';status.textContent='✅ WhatsApp Group link Firebase-এ Save হয়েছে।';}}
-    catch(e){if(status){status.className='error';status.textContent='⚠️ ফোনে Save হয়েছে, Firebase Sync হয়নি। '+(e?.message||'');}}
+    catch(e){if(status){status.className='error';status.textContent='⚠️ ফোনে Save হয়েছে, Firebase Sync হয়নি।';}}
   };
   window.openSavedWhatsAppGroup=function(){
     const url=String($('whatsappGroupLink')?.value||loadWALocal().groupLink||'').trim();
     if(!url){if(typeof window.showAppNotice==='function')window.showAppNotice('Admin থেকে আগে WhatsApp Group link Save করুন।','WhatsApp Group','📲');return;}
-    window.open(url,'_blank','noopener');
+    window.location.href=url;
   };
-  function selectedVillageList(n){const x=getCfgs()[String(n)];return (x?.villages||[]).map(v=>typeof v==='string'?{name:v}:v).filter(v=>v&&v.name)}
-  function fillCameraParliaments(){
-    const sel=$('cameraParliament'); if(!sel)return; const cfg=getCfgs(); const nums=Object.keys(cfg).filter(n=>/^([1-9][0-9]?|100)$/.test(n)).sort((a,b)=>Number(a)-Number(b));
-    sel.innerHTML='<option value="">-- সংসদ নির্বাচন করুন --</option>'+nums.map(n=>`<option value="${esc(n)}">সংসদ ${esc(n)}</option>`).join('');
-    try{if(typeof selectedLocationNumber!=='undefined'&&selectedLocationNumber)sel.value=selectedLocationNumber;}catch(e){}
-    fillCameraVillages();
+  function stopStream(stream){if(stream){stream.getTracks().forEach(t=>{try{t.stop()}catch(e){}})}}
+  async function startStream(video,facing){
+    if(!navigator.mediaDevices?.getUserMedia) throw new Error('এই Browser-এ সরাসরি Camera চালু করা যায় না। HTTPS/localhost-এ খুলুন।');
+    return await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:facing},width:{ideal:1920},height:{ideal:1080}},audio:false});
   }
-  function fillCameraVillages(){
-    const n=$('cameraParliament')?.value||''; const wrap=$('cameraVillageWrap'); const sel=$('cameraVillage'); if(!sel)return; const vs=selectedVillageList(n); sel.innerHTML='<option value="">-- গ্রাম নির্বাচন করুন --</option>'+vs.map(v=>`<option value="${esc(v.name)}">${esc(v.name)}</option>`).join('');
-    if(wrap)wrap.classList.toggle('show',!!n);
-    const rw=$('cameraRemarksWrap'); if(rw)rw.classList.remove('show'); if($('cameraRemarks'))$('cameraRemarks').value='';
-    try{if(typeof selectedVillage!=='undefined'&&selectedVillage && vs.some(v=>v.name===selectedVillage))sel.value=selectedVillage;}catch(e){}
+  async function reverseArea(lat,lng){
+    try{
+      const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lng)}&zoom=18&addressdetails=1`,{headers:{'Accept':'application/json'}});
+      if(!r.ok)return ''; const d=await r.json(); const a=d.address||{}; return a.village||a.suburb||a.town||a.city||a.municipality||a.county||d.display_name||'';
+    }catch(e){return ''}
   }
-  window.cameraParliamentChanged=function(){fillCameraVillages()};
-  window.cameraVillageChanged=function(){const v=$('cameraVillage')?.value||''; const rw=$('cameraRemarksWrap'); if(rw)rw.classList.toggle('show',!!v);};
-  function cameraFields(){return {parliament:$('cameraParliament')?.value||'',village:$('cameraVillage')?.value||'',remarks:$('cameraRemarks')?.value?.trim()||''}}
-  window.openFieldCamera=function(){
-    cameraOpen=true; $('fieldCameraModal')?.classList.add('open'); $('fieldCameraModal')?.setAttribute('aria-hidden','false'); fillCameraParliaments(); if($('cameraVillageWrap'))$('cameraVillageWrap').classList.toggle('show',!!$('cameraParliament')?.value); if($('cameraRemarksWrap'))$('cameraRemarksWrap').classList.toggle('show',!!$('cameraVillage')?.value); renderFieldPhotos();
-  };
-  window.closeFieldCamera=function(){cameraOpen=false; $('fieldCameraModal')?.classList.remove('open'); $('fieldCameraModal')?.setAttribute('aria-hidden','true');}
-  function status(t,kind){const el=$('fieldCameraStatus');if(el){el.textContent=t;el.className='status '+(kind||'')}}
-  async function readImage(file){return await new Promise((res,rej)=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.onerror=rej;fr.readAsDataURL(file)})}
-  async function makeMapBadge(lat,lng,w=250,h=115){
+  async function getGps(){
+    if(!navigator.geolocation)throw new Error('এই Browser-এ GPS নেই');
+    return await new Promise((res,rej)=>navigator.geolocation.getCurrentPosition(res,rej,{enableHighAccuracy:true,timeout:20000,maximumAge:0}));
+  }
+  function canvasBlob(canvas,quality=.95){return new Promise((res,rej)=>canvas.toBlob(b=>b?res(b):rej(new Error('ছবি তৈরি হয়নি')),'image/jpeg',quality))}
+  async function makeMapBadge(lat,lng,w=310,h=135){
     const c=document.createElement('canvas');c.width=w;c.height=h;const x=c.getContext('2d');
     x.fillStyle='#14202a';x.fillRect(0,0,w,h);x.strokeStyle='#3f6072';x.lineWidth=2;
-    for(let i=0;i<=w;i+=25){x.beginPath();x.moveTo(i,0);x.lineTo(i,h);x.stroke()} for(let i=0;i<=h;i+=23){x.beginPath();x.moveTo(0,i);x.lineTo(w,i);x.stroke()}
-    // simple road-like paths; the actual coordinate is printed prominently so the badge remains useful offline.
-    x.strokeStyle='#6f8794';x.lineWidth=7;x.beginPath();x.moveTo(5,h-15);x.quadraticCurveTo(w*.35,h*.65,w*.55,h*.5);x.quadraticCurveTo(w*.75,h*.35,w-5,12);x.stroke();
-    x.strokeStyle='#a9bac4';x.lineWidth=2;x.beginPath();x.moveTo(0,18);x.quadraticCurveTo(w*.35,h*.4,w*.7,h*.15);x.quadraticCurveTo(w*.85,h*.05,w,28);x.stroke();
-    x.fillStyle='#ff3b30';x.beginPath();x.arc(w*.55,h*.5,9,0,Math.PI*2);x.fill();x.strokeStyle='#fff';x.lineWidth=3;x.stroke();
-    x.fillStyle='#fff';x.font='bold 12px sans-serif';x.fillText('GPS MAP',8,18);x.font='11px sans-serif';x.fillText(`${Number(lat).toFixed(5)}, ${Number(lng).toFixed(5)}`,8,h-8);return c;
+    for(let i=0;i<=w;i+=31){x.beginPath();x.moveTo(i,0);x.lineTo(i,h);x.stroke()} for(let i=0;i<=h;i+=27){x.beginPath();x.moveTo(0,i);x.lineTo(w,i);x.stroke()}
+    x.strokeStyle='#6f8794';x.lineWidth=8;x.beginPath();x.moveTo(5,h-16);x.quadraticCurveTo(w*.35,h*.65,w*.55,h*.5);x.quadraticCurveTo(w*.75,h*.35,w-5,12);x.stroke();
+    x.fillStyle='#ff3b30';x.beginPath();x.arc(w*.55,h*.5,10,0,Math.PI*2);x.fill();x.strokeStyle='#fff';x.lineWidth=3;x.stroke();
+    x.fillStyle='#fff';x.font='bold 15px sans-serif';x.fillText('GPS MAP',10,22);x.font='13px sans-serif';x.fillText(`${Number(lat).toFixed(6)}, ${Number(lng).toFixed(6)}`,10,h-10);return c;
   }
-  async function makeGpsImage(file,meta){
-    const src=await readImage(file); const img=new Image(); await new Promise((res,rej)=>{img.onload=res;img.onerror=rej;img.src=src});
-    const max=1800,scale=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));const w=Math.round(img.naturalWidth*scale),h=Math.round(img.naturalHeight*scale);
-    const pad=Math.max(150,Math.round(w*.13));const out=document.createElement('canvas');out.width=w;out.height=h+pad;const c=out.getContext('2d');c.drawImage(img,0,0,w,h);
-    const g=c.createLinearGradient(0,h-10,0,h+pad);g.addColorStop(0,'rgba(0,0,0,.12)');g.addColorStop(.18,'rgba(4,13,20,.86)');g.addColorStop(1,'rgba(2,8,12,.97)');c.fillStyle=g;c.fillRect(0,h,w,pad);
-    c.fillStyle='#fff';c.font='bold 26px sans-serif';c.fillText(meta.village?meta.village:'গ্রাম নির্বাচন করা হয়নি',18,h+36);c.font='17px sans-serif';c.fillText(`সংসদ ${meta.parliament||'—'}  •  ${new Date().toLocaleString('en-IN')}`,18,h+63);c.font='15px sans-serif';c.fillText(`GPS: ${meta.lat!=null?Number(meta.lat).toFixed(6):'N/A'}, ${meta.lng!=null?Number(meta.lng).toFixed(6):'N/A'}  ±${meta.accuracy!=null?Math.round(meta.accuracy):'?'}m`,18,h+87);if(meta.remarks)c.fillText(meta.remarks.slice(0,90),18,h+112);
-    if(meta.lat!=null&&meta.lng!=null){const map=await makeMapBadge(meta.lat,meta.lng,210,100);c.drawImage(map,w-225,h+8,210,100)}
-    return await new Promise(res=>out.toBlob(res,'image/jpeg',.88));
+  async function makeGpsImage(blob,meta){
+    const src=URL.createObjectURL(blob); const img=new Image(); try{await new Promise((res,rej)=>{img.onload=res;img.onerror=rej;img.src=src});
+      const max=2400,scale=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));const w=Math.round(img.naturalWidth*scale),h=Math.round(img.naturalHeight*scale);
+      const pad=Math.max(205,Math.round(w*.16));const out=document.createElement('canvas');out.width=w;out.height=h+pad;const c=out.getContext('2d');c.drawImage(img,0,0,w,h);
+      const g=c.createLinearGradient(0,h-10,0,h+pad);g.addColorStop(0,'rgba(0,0,0,.12)');g.addColorStop(.16,'rgba(4,13,20,.88)');g.addColorStop(1,'rgba(2,8,12,.98)');c.fillStyle=g;c.fillRect(0,h,w,pad);
+      c.fillStyle='#fff';c.font='bold 32px sans-serif';c.fillText(meta.area||'লোকেশন পাওয়া যায়নি',22,h+44);c.font='20px sans-serif';c.fillText(new Date().toLocaleString('en-IN'),22,h+78);c.font='18px sans-serif';c.fillText(`Lat ${Number(meta.lat).toFixed(6)}°  Long ${Number(meta.lng).toFixed(6)}°  ±${meta.accuracy!=null?Math.round(meta.accuracy):'?'}m`,22,h+108);
+      const map=await makeMapBadge(meta.lat,meta.lng,300,128);c.drawImage(map,w-320,h+10,300,128);
+      return await canvasBlob(out,.95);
+    }finally{URL.revokeObjectURL(src)}
   }
-  async function makeNormalImage(file,meta){
-    const src=await readImage(file); const img=new Image(); await new Promise((res,rej)=>{img.onload=res;img.onerror=rej;img.src=src});
-    const max=1800,scale=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));const w=Math.round(img.naturalWidth*scale),h=Math.round(img.naturalHeight*scale),pad=meta.village||meta.remarks?86:0;
-    if(!pad)return file;
-    const out=document.createElement('canvas');out.width=w;out.height=h+pad;const c=out.getContext('2d');c.drawImage(img,0,0,w,h);c.fillStyle='rgba(3,10,16,.93)';c.fillRect(0,h,w,pad);c.fillStyle='#fff';c.font='bold 24px sans-serif';c.fillText(meta.village||'গ্রাম —',16,h+32);c.font='15px sans-serif';c.fillText(`সংসদ ${meta.parliament||'—'}${meta.remarks?'  •  '+meta.remarks.slice(0,85):''}`,16,h+60);return await new Promise(res=>out.toBlob(res,'image/jpeg',.88));
+  async function makeNormalImage(blob){
+    const src=URL.createObjectURL(blob);const img=new Image();
+    try{
+      await new Promise((res,rej)=>{img.onload=res;img.onerror=rej;img.src=src});
+      const max=2400,scale=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));
+      if(scale>=1)return blob;
+      const w=Math.round(img.naturalWidth*scale),h=Math.round(img.naturalHeight*scale);
+      const out=document.createElement('canvas');out.width=w;out.height=h;
+      out.getContext('2d').drawImage(img,0,0,w,h);
+      return await canvasBlob(out,.95);
+    }finally{URL.revokeObjectURL(src)}
   }
+
   function renderFieldPhotos(){
     const grid=$('fieldPhotoGrid'),count=$('fieldCameraCount');if(count)count.textContent=fieldPhotos.length;if(!grid)return;
-    grid.innerHTML=fieldPhotos.map((p,i)=>`<div class="field-photo-card"><button type="button" class="field-photo-x" onclick="removeFieldPhoto(${i})">✕</button><img src="${p.url}" alt="photo"><div class="field-photo-meta"><b>${p.mode==='gps'?'📍 GPS Camera':'📷 Normal Camera'}</b><br>সংসদ: ${esc(p.parliament||'—')}<br>গ্রাম: ${esc(p.village||'—')}${p.lat!=null?`<br>GPS: ${Number(p.lat).toFixed(5)}, ${Number(p.lng).toFixed(5)}`:''}${p.remarks?`<br>Remarks: ${esc(p.remarks)}`:''}</div></div>`).join('');
+    grid.innerHTML=fieldPhotos.map((p,i)=>`<div class="field-photo-card"><button type="button" class="field-photo-x" onclick="removeFieldPhoto(${i})">✕</button><img src="${p.url}" alt="photo"><div class="field-photo-meta"><b>${p.mode==='gps'?'📍 GPS Camera':'📷 Normal Camera'}</b>${p.area?`<br>📍 ${esc(p.area)}`:''}${p.lat!=null?`<br>GPS: ${Number(p.lat).toFixed(6)}, ${Number(p.lng).toFixed(6)}`:''}</div></div>`).join('');
   }
   window.removeFieldPhoto=function(i){const p=fieldPhotos[i];if(p?.url)URL.revokeObjectURL(p.url);fieldPhotos.splice(i,1);renderFieldPhotos()};
-  window.captureFieldPhoto=function(mode){
-    const meta=cameraFields();
-    const input=document.createElement('input');input.type='file';input.accept='image/*';input.setAttribute('capture','environment');
-    input.onchange=async()=>{const file=input.files?.[0];if(!file)return;status(mode==='gps'?'📍 ছবি নেওয়া হয়েছে। GPS যাচাই হচ্ছে...':'📷 ছবি প্রস্তুত হচ্ছে...','status');try{let lat=null,lng=null,accuracy=null;if(mode==='gps'){
-        if(navigator.geolocation){
-          try{const pos=await new Promise((res,rej)=>navigator.geolocation.getCurrentPosition(res,rej,{enableHighAccuracy:true,timeout:15000,maximumAge:0}));lat=pos.coords.latitude;lng=pos.coords.longitude;accuracy=pos.coords.accuracy;}
-          catch(gpsErr){
-            const fallback=window.session; if(fallback?.startLatitude!=null&&fallback?.startLongitude!=null){lat=fallback.startLatitude;lng=fallback.startLongitude;accuracy=fallback.startAccuracy||null;status('📍 ফোনের GPS permission পাওয়া যায়নি; কাজ শুরুর সময়ের যাচাই করা GPS ব্যবহার করা হয়েছে।','status');}else throw gpsErr;
-          }
-        }else{const fallback=window.session;if(fallback?.startLatitude!=null&&fallback?.startLongitude!=null){lat=fallback.startLatitude;lng=fallback.startLongitude;accuracy=fallback.startAccuracy||null;}else throw new Error('এই Browser-এ GPS নেই');}
-      }
-      const m={...meta,lat,lng,accuracy};const blob=mode==='gps'?await makeGpsImage(file,m):await makeNormalImage(file,m);const url=URL.createObjectURL(blob);fieldPhotos.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()),blob,url,mode,...m,createdAt:new Date().toISOString()});renderFieldPhotos();status(`✅ ছবি যোগ হয়েছে। মোট ${fieldPhotos.length}টি ছবি। আরেকটি তুলতে “আরও ছবি” চাপুন।`,'success');
-    }catch(e){console.error(e);status('❌ ছবি প্রস্তুত করা যায়নি: '+(e?.message||e),'error')}};input.click();
+
+  async function processFieldBlob(mode,blob){
+    const meta={}; status(mode==='gps'?'📍 GPS যাচাই হচ্ছে…':'📷 ছবি প্রস্তুত হচ্ছে…','status');
+    let lat=null,lng=null,accuracy=null,area='';
+    if(mode==='gps'){
+      try{const pos=await getGps();lat=pos.coords.latitude;lng=pos.coords.longitude;accuracy=pos.coords.accuracy;area=await reverseArea(lat,lng)}
+      catch(gpsErr){const fallback=window.session;if(fallback?.startLatitude!=null&&fallback?.startLongitude!=null){lat=fallback.startLatitude;lng=fallback.startLongitude;accuracy=fallback.startAccuracy||null;area=await reverseArea(lat,lng);status('📍 Live GPS পাওয়া যায়নি; কাজ শুরুর GPS ব্যবহার করা হয়েছে।','status')}else throw gpsErr}
+    }
+    const m={...meta,lat,lng,accuracy,area};const out=mode==='gps'?await makeGpsImage(blob,m):await makeNormalImage(blob);const url=URL.createObjectURL(out);fieldPhotos.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random()),blob:out,url,mode,...m,createdAt:new Date().toISOString()});renderFieldPhotos();status(`✅ ছবি যোগ হয়েছে। মোট ${fieldPhotos.length}টি ছবি।`,'success');
+  }
+  async function openFieldStream(){
+    stopStream(fieldStream);fieldStream=await startStream($('fieldCameraVideo'),fieldFacing);$('fieldCameraVideo').srcObject=fieldStream;await $('fieldCameraVideo').play();
+  }
+  async function waitForVideoReady(video){
+    if(!video) throw new Error('Camera video পাওয়া যায়নি');
+    if(video.readyState < 2 || !video.videoWidth || !video.videoHeight){
+      await new Promise((resolve,reject)=>{
+        let done=false;
+        const cleanup=()=>{video.removeEventListener('loadedmetadata',finish);video.removeEventListener('canplay',finish);video.removeEventListener('playing',finish)};
+        const finish=()=>{if(done)return;done=true;cleanup();resolve()};
+        const fail=()=>{if(done)return;done=true;cleanup();reject(new Error('Camera frame প্রস্তুত হয়নি'))};
+        video.addEventListener('loadedmetadata',finish,{once:true});video.addEventListener('canplay',finish,{once:true});video.addEventListener('playing',finish,{once:true});
+        setTimeout(()=>{if(video.videoWidth&&video.videoHeight)finish();else fail()},5000);
+      });
+    }
+    if(video.readyState < 2 || !video.videoWidth || !video.videoHeight) throw new Error('Camera frame প্রস্তুত হয়নি');
+  }
+  window.captureFieldPhoto=async function(mode){
+    try{
+      if(!fieldStream || !fieldStream.active){await openFieldStream();}
+      const v=$('fieldCameraVideo');
+      await waitForVideoReady(v);
+      await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
+      const w=v.videoWidth,h=v.videoHeight;
+      const c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(v,0,0,w,h);
+      const blob=await canvasBlob(c,.95);stopStream(fieldStream);fieldStream=null;await processFieldBlob(mode,blob);
+    }catch(e){console.error(e);status('❌ ছবি তোলা যায়নি: '+(e?.message||e),'error')}
   };
+  window.switchFieldCamera=async function(){fieldFacing=fieldFacing==='environment'?'user':'environment';try{await openFieldStream();await waitForVideoReady($('fieldCameraVideo'));status(fieldFacing==='user'?'🤳 Front Camera চালু হয়েছে।':'📷 Back Camera চালু হয়েছে।','success')}catch(e){status('❌ Camera বদলানো যায়নি: '+(e?.message||e),'error')}};
+  window.openFieldCamera=function(){cameraOpen=true;$('fieldCameraModal')?.classList.add('open');$('fieldCameraModal')?.setAttribute('aria-hidden','false');renderFieldPhotos();status('📷 Camera খুলছে…','status');setTimeout(async()=>{try{await openFieldStream();await waitForVideoReady($('fieldCameraVideo'));status('📷 Back Camera চালু। Front/Back বদলাতে 🔄 চাপুন।','success')}catch(e){status('❌ Camera permission দিন: '+(e?.message||e),'error')}},50)};
+  window.closeFieldCamera=function(){cameraOpen=false;stopStream(fieldStream);fieldStream=null;$('fieldCameraVideo')?.removeAttribute('srcObject');$('fieldCameraModal')?.classList.remove('open');$('fieldCameraModal')?.setAttribute('aria-hidden','true')};
+
+  // Worker direct camera: no input[type=file], therefore gallery cannot be selected.
+  async function openWorkerStream(){stopStream(workerStream);workerStream=await startStream($('workerCameraVideo'),workerFacing);$('workerCameraVideo').srcObject=workerStream;await $('workerCameraVideo').play();}
+  window.openWorkerCamera=async function(){
+    $('workerCameraModal')?.classList.add('open');$('workerCameraModal')?.setAttribute('aria-hidden','false');$('workerCameraStatus').textContent='📷 Camera খুলছে…';
+    try{await openWorkerStream();$('workerCameraStatus').textContent=workerFacing==='user'?'🤳 Front Camera চালু হয়েছে।':'📷 Back Camera চালু হয়েছে।'}catch(e){$('workerCameraStatus').textContent='❌ Camera permission দিন: '+(e?.message||e)}
+  };
+  window.switchWorkerCamera=async function(){workerFacing=workerFacing==='user'?'environment':'user';try{await openWorkerStream();await waitForVideoReady($('workerCameraVideo'));$('workerCameraStatus').textContent=workerFacing==='user'?'🤳 Front Camera চালু হয়েছে।':'📷 Back Camera চালু হয়েছে।'}catch(e){$('workerCameraStatus').textContent='❌ Camera বদলানো যায়নি: '+(e?.message||e)}};
+  window.takeWorkerPhoto=async function(){
+    try{const v=$('workerCameraVideo'),c=$('workerCameraCanvas');await waitForVideoReady(v);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const w=v.videoWidth,h=v.videoHeight;c.width=w;c.height=h;c.getContext('2d').drawImage(v,0,0,w,h);workerPhotoBlob=await canvasBlob(c,.95);const url=URL.createObjectURL(workerPhotoBlob);$('workerPhotoPreview').innerHTML=`<img src="${url}" alt="কর্মীর ছবি">`;const photoInput=$('photo');if(photoInput)photoInput.dataset.cameraReady='1';$('workerCameraStatus').textContent='✅ কর্মীর ছবি নেওয়া হয়েছে।';closeWorkerCamera();}
+    catch(e){$('workerCameraStatus').textContent='❌ ছবি নেওয়া যায়নি: '+(e?.message||e)}};
+  window.closeWorkerCamera=function(){stopStream(workerStream);workerStream=null;$('workerCameraModal')?.classList.remove('open');$('workerCameraModal')?.setAttribute('aria-hidden','true')};
+
+  // Attendance save reads this camera-only blob through a temporary File object.
+  window.getWorkerCameraFile=function(){return workerPhotoBlob?new File([workerPhotoBlob],`worker_${Date.now()}.jpg`,{type:'image/jpeg'}):null};
+  window.clearWorkerCamera=function(){workerPhotoBlob=null;const box=$('workerPhotoPreview');if(box)box.innerHTML='';};
+
   window.sendFieldPhotosToWhatsApp=async function(){
     if(!fieldPhotos.length){status('❌ আগে অন্তত একটি ছবি তুলুন।','error');return;}
     const group=String($('whatsappGroupLink')?.value||loadWALocal().groupLink||'').trim();
     const files=fieldPhotos.map((p,i)=>new File([p.blob],`VBDCP_${Date.now()}_${i+1}.jpg`,{type:'image/jpeg'}));
-    const f0=fieldPhotos[0]; const text=`VBDCP কাজের ছবি\nসংসদ: ${f0.parliament||'—'}\nগ্রাম: ${f0.village||'—'}\nছবি: ${files.length}টি${f0.remarks?'\nRemarks: '+f0.remarks:''}`;
+    const text=`VBDCP কাজের ছবি\nছবি: ${files.length}টি`;
     try{
-      if(!navigator.share || !navigator.canShare || !navigator.canShare({files})){if(group){status('📲 WhatsApp Group খোলা হচ্ছে…','status');setTimeout(()=>{window.location.href=group},120)}else{status('⚠️ WhatsApp Group link সেট করা নেই।','error')}return;}
-      await navigator.share({title:'VBDCP কাজের ছবি',text,files});
-      // Only after the share sheet accepts the files do we discard all in-memory photo data.
-      fieldPhotos.forEach(p=>{try{URL.revokeObjectURL(p.url)}catch(e){}});fieldPhotos=[];renderFieldPhotos();status('✅ Share সম্পন্ন। ছবিগুলো এই অ্যাপের memory থেকেও মুছে দেওয়া হয়েছে।','success');
-      if(group){setTimeout(()=>{window.location.href=group},250)}
-    }catch(e){if(e?.name==='AbortError'){status('ℹ️ Share বাতিল হয়েছে। ছবিগুলো এখনও আছে।','status');return}console.error(e);if(group){status('📲 WhatsApp Group খোলা হচ্ছে…','status');setTimeout(()=>{window.location.href=group},120)}else{status('❌ WhatsApp Share করা যায়নি: '+(e?.message||e),'error')}}
+      // The browser cannot attach files to a specific WhatsApp group URL. We still use the Admin-saved link as the destination whenever possible.
+      if(group){try{window.open(group,'_blank','noopener')}catch(e){}}
+      if(navigator.share && navigator.canShare && navigator.canShare({files})){await navigator.share({title:'VBDCP কাজের ছবি',text,files});fieldPhotos.forEach(p=>{try{URL.revokeObjectURL(p.url)}catch(e){}});fieldPhotos=[];renderFieldPhotos();status('✅ Share প্রস্তুত। Admin-এর WhatsApp Group link খোলা হয়েছে।','success');return;}
+      status(group?'📲 Admin-এর WhatsApp Group link খোলা হয়েছে। এখন Share থেকে ছবিগুলো পাঠান।':'⚠️ WhatsApp Group link সেট করা নেই।','status');
+    }catch(e){if(e?.name==='AbortError'){status('ℹ️ Share বাতিল হয়েছে। ছবিগুলো এখনও আছে।','status');return}console.error(e);status('❌ WhatsApp Share করা যায়নি: '+(e?.message||e),'error')}
   };
-  document.addEventListener('DOMContentLoaded',()=>{loadWA();});
+  document.addEventListener('DOMContentLoaded',()=>{loadWA()});
 })();
 </script>
